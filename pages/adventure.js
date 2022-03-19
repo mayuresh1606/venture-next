@@ -1,35 +1,35 @@
 export default function Adventure(){
     return <>
     <header>
-            <nav class="navbar">
-                <div class="nav-contents">
-                    <div style={{"textAlign": "center"}} class="site-logo">
-                        <h1 class="venture-logo">VENTURE WORLD</h1>
-                        <h6 class="venture-logo-desc">Tour, Trek, Picnic, Pilgrimage</h6>
+            <nav className="navbar">
+                <div className="nav-contents">
+                    <div style={{"textAlign": "center"}} className="site-logo">
+                        <h1 className="venture-logo">VENTURE WORLD</h1>
+                        <h6 className="venture-logo-desc">Tour, Trek, Picnic, Pilgrimage</h6>
                     </div>
-                    <div class="site-navigations">
-                        <ul class="ul">
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" aria-current="page" href="/">Home</a>
+                    <div className="site-navigations">
+                        <ul className="ul">
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" aria-current="page" href="/">Home</a>
                             </li>
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" href="/tours/">Tours</a>
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" href="/tours/">Tours</a>
                             </li>
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" href="/tours/services">Services</a>
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" href="/tours/services">Services</a>
                             </li>
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" href="/tours/contactUs">Contact Us</a>
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" href="/tours/contactUs">Contact Us</a>
                             </li>
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" href="/tours/terms">Terms</a>
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" href="/tours/terms">Terms</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <div class="my-container font-size-small">
+        <div className="my-container font-size-small">
             <center className="font-weight">THRILLING ADVENTURE</center>
             <br />
             <table className="table table-bordered border-secondary">
@@ -60,18 +60,18 @@ export default function Adventure(){
                     <tbody>
                         <tr className="text-center">
                             <td width={"20%"}>One Day</td>
-                            <td width={"80%"}> <center class="underline">MAHARASHTRA</center><span className="underline">Transfer Point: Mumbai / Pune</span> - Bhimashankar, Nane Ghat,
+                            <td width={"80%"}> <center className="underline">MAHARASHTRA</center><span className="underline">Transfer Point: Mumbai / Pune</span> - Bhimashankar, Nane Ghat,
                             Harishchandragad. </td>
                         </tr>
                         <tr className="text-center">
                             <td width={"20%"}>2 Days</td>
-                            <td width={"80%"}> <center class="underline">MAHARASHTRA</center><span className="underline">Transfer Point: Mumbai / Pune</span> - Bhimashankar, Matheran,
+                            <td width={"80%"}> <center className="underline">MAHARASHTRA</center><span className="underline">Transfer Point: Mumbai / Pune</span> - Bhimashankar, Matheran,
                             Harishchandragad, Malsej Ghat, Kalsubai, Bhandardara, Igatpuri,
                             Lonavala. </td>
                         </tr>
                         <tr className="text-center">
                             <td width={"20%"}>2 to 5 Days</td>
-                            <td width={"80%"}> <center class="underline">MAHARASHTRA</center><span className="underline">Transfer Point: Mumbai / Pune</span> - Bhimashankar, Matheran, Malsej Ghat,
+                            <td width={"80%"}> <center className="underline">MAHARASHTRA</center><span className="underline">Transfer Point: Mumbai / Pune</span> - Bhimashankar, Matheran, Malsej Ghat,
                             Bhandardara, Igatpuri, Lonavala, Mahabaleshwar, Saputara (Gujarat).
                             GOA – Dudsagar </td>
                         </tr>
@@ -87,7 +87,7 @@ export default function Adventure(){
                         </tr>
                         <tr className="text-center">
                             <td width={"20%"}>7 Days and above</td>
-                            <td width={"80%"}> <center class="underline">HIMACHAL PRADESH</center><br /><center class="underline">Pick up and Drop - Chandigarh / Delhi</center><br /> 
+                            <td width={"80%"}> <center className="underline">HIMACHAL PRADESH</center><br /><center className="underline">Pick up and Drop - Chandigarh / Delhi</center><br /> 
                             <span className="underline">Transfer Point: Manali / Kullu</span> - Jogini Waterfall, Bijli Mahadev, Patalsu,
                             Rani sui lake, Bhrigu Lake, Chandratal / Hampta pass, Chandrakani /
                             Malana, Beas Kund, Deo Tibba.<br />
@@ -103,8 +103,8 @@ export default function Adventure(){
                             Kuppar - Bughyal, Shali Tibba, Karol Tibba, Jalori Pass,<br /><span className="underline">Sarahan  -
                             Sangla -  Rampur.</span> <br />
 
-                            <center class="underline">UTTARAKHAND</center>
-                            <center class="underline">Pick up and Drop - Delhi</center>
+                            <center className="underline">UTTARAKHAND</center>
+                            <center className="underline">Pick up and Drop - Delhi</center>
                             <span className="underline">Transfer Point: Dehradun / Mussoorie</span> - Kedarkantha, Har Ki Dun, Nag
                             Tibba.<br />
                             <span className="underline">Transfer Point: Rudraprayag</span> - Chopta, Chandrashila, Deoria Tal,
@@ -409,14 +409,14 @@ export default function Adventure(){
                 </tbody>
             </table>
             <br />
-            <table class="table table-striped table-bordered border-secondary">
+            <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>
+                                <h6 className="font-weight">ACCOMODATION: </h6>
                                 In Deluxe Hotels at transfer points and Tent or Camp stay
 (single/
 two/ triple/ four sharing)
@@ -424,33 +424,33 @@ two/ triple/ four sharing)
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRANSPORTATION:</h6><span class="font-weight">For couple / family:</span>Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span>Ac - luxury Bus, Tempo Traveller, Car (According to group size)<br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <h6 className="font-weight">TRANSPORTATION:</h6><span className="font-weight">For couple / family:</span>Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span>Ac - luxury Bus, Tempo Traveller, Car (According to group size)<br />
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FOOD:</h6>All meals - (Breakfast tea/ coffee, Lunch, Evening Snacks tea/coffee &amp; Dinner
+                                <h6 className="font-weight">FOOD:</h6>All meals - (Breakfast tea/ coffee, Lunch, Evening Snacks tea/coffee &amp; Dinner
 along with 1 litre Water bottle per person)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
                     </tbody>
                 </table>
                 <br />
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -521,7 +521,7 @@ along with 1 litre Water bottle per person)
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline , vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -547,13 +547,13 @@ along with 1 litre Water bottle per person)
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -590,7 +590,7 @@ along with 1 litre Water bottle per person)
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />

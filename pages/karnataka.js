@@ -2,50 +2,50 @@ import "bootstrap/dist/css/bootstrap.min.css"
 export default function Karnataka(){
     return <>
         <header>
-            <nav class="navbar">
-                <div class="nav-contents">
-                    <div style={{"textAlign": "center"}} class="site-logo">
-                        <h1 class="venture-logo">VENTURE WORLD</h1>
-                        <h6 class="venture-logo-desc">Tour, Trek, Picnic, Pilgrimage</h6>
+            <nav className="navbar">
+                <div className="nav-contents">
+                    <div style={{"textAlign": "center"}} className="site-logo">
+                        <h1 className="venture-logo">VENTURE WORLD</h1>
+                        <h6 className="venture-logo-desc">Tour, Trek, Picnic, Pilgrimage</h6>
                     </div>
-                    <div class="site-navigations">
-                        <ul class="ul">
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" aria-current="page" href="/">Home</a>
+                    <div className="site-navigations">
+                        <ul className="ul">
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" aria-current="page" href="/">Home</a>
                             </li>
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" href="/tours/">Tours</a>
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" href="/tours/">Tours</a>
                             </li>
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" href="/tours/services">Services</a>
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" href="/tours/services">Services</a>
                             </li>
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" href="/tours/contactUs">Contact Us</a>
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" href="/tours/contactUs">Contact Us</a>
                             </li>
-                            <li class="ul-background">
-                                <a class="nav-link darkblue-color" href="/tours/terms">Terms</a>
+                            <li className="ul-background">
+                                <a className="nav-link darkblue-color" href="/tours/terms">Terms</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <div class="my-container font-size-small">
+        <div className="my-container font-size-small">
             <center>
                 <h1>Majestic Karnataka</h1>
             </center>
-            <p class="font-weight">VENTURE WORLD’S packages: <span class="green-color"><span
+            <p className="font-weight">VENTURE WORLD’S packages: <span className="green-color"><span
                         style={{"textDecoration": "underline"}}>PACKAGE 1 -</span> LUXURY TOUR</span><br />
-                <span style={{"color": "transparent"}}>VENTURE WORLD’S packages: </span><span class="brown-color"><span
+                <span style={{"color": "transparent"}}>VENTURE WORLD’S packages: </span><span className="brown-color"><span
                         style={{"textDecoration": "underline"}}>PACKAGE 2 -</span> BUDGET TOUR</span>
             </p>
-            <p class="blue-color font-weight">TOUR TYPE 1 COMFORT - We don’t run in the tour -We stroll in the tour </p>
-            <p class="red-color font-weight">TOUR TYPE 2 COMPACT – Itinerary Carved Tour</p>
-            <p class="font-weight">CLICK on the <span class="lightblue-color" style={{"textDecoration": "underline"}}>Tour
+            <p className="blue-color font-weight">TOUR TYPE 1 COMFORT - We don’t run in the tour -We stroll in the tour </p>
+            <p className="red-color font-weight">TOUR TYPE 2 COMPACT – Itinerary Carved Tour</p>
+            <p className="font-weight">CLICK on the <span className="lightblue-color" style={{"textDecoration": "underline"}}>Tour
                     number</span> of your choice for tour itinerary, tour cost, cost includes / not includes and for more
                 information.</p>
             <hr />
-            <table class="table grey-bg-table table-striped">
+            <table className="table grey-bg-table table-striped">
                 <thead>
                     <tr>
                         <th scope="col">Tour</th>
@@ -55,11 +55,11 @@ export default function Karnataka(){
                         <th scope="col">Starting</th>
                     </tr>
                 </thead>
-                <tbody class="font-weight-light">
+                <tbody className="font-weight-light">
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-1"><p>Tour 1</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-1"><p>Tour 1</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -71,7 +71,7 @@ export default function Karnataka(){
                         <td>26,250/-</td>
                     </tr>
                     
-                    <tr class="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -86,9 +86,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-2"><p>Tour 2</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-2"><p>Tour 2</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -100,7 +100,7 @@ export default function Karnataka(){
                         <td>32,750/-</td>
                     </tr>
                     
-                    <tr class="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -115,9 +115,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-3"><p>Tour 3</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-3"><p>Tour 3</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -129,7 +129,7 @@ export default function Karnataka(){
                         <td>27,000/-</td>
                     </tr>
                     
-                    <tr class="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -144,9 +144,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-4"><p>Tour 4</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-4"><p>Tour 4</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -158,7 +158,7 @@ export default function Karnataka(){
                         <td>35,500/-</td>
                     </tr>
                     
-                    <tr class="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -173,9 +173,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-5"><p>Tour 5</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-5"><p>Tour 5</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -187,7 +187,7 @@ export default function Karnataka(){
                         <td>35,500/-</td>
                     </tr>
                     
-                    <tr class="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -202,9 +202,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-6"><p>Tour 6</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-6"><p>Tour 6</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -216,7 +216,7 @@ export default function Karnataka(){
                         <td>40,250/-</td>
                     </tr>
                     
-                    <tr class="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -231,9 +231,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-7"><p>Tour 7</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-7"><p>Tour 7</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -245,7 +245,7 @@ export default function Karnataka(){
                         <td>40,250/-</td>
                     </tr>
                     
-                    <tr class="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -260,9 +260,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-8"><p>Tour 8</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-8"><p>Tour 8</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -274,7 +274,7 @@ export default function Karnataka(){
                         <td>40,250/-</td>
                     </tr>
                     
-                    <tr class="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -289,9 +289,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-10"><p>Tour 10</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-10"><p>Tour 10</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -304,9 +304,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-11"><p>Tour 11</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-11"><p>Tour 11</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -319,9 +319,9 @@ export default function Karnataka(){
                     </tr>
                     
                     
-                    <tr class="blue-color" style={{"height": "minContent"}}>
+                    <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
-                            <a style={{"margin": "0"}} class="aside-content new-content" href="#tour-12"><p>Tour 12</p></a>
+                            <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-12"><p>Tour 12</p></a>
                         </td>
                         <td>COMFORT</td>
                         <td>
@@ -338,8 +338,8 @@ export default function Karnataka(){
             </table>
             
             <section id="tour-1">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 1</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 1</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -347,8 +347,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 BENGALURU (2N) - MYSURU (3N)
@@ -360,7 +360,7 @@ export default function Karnataka(){
                             
                         </tr>
                         
-                        <tr class="red-color">
+                        <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 BENGALURU (1N) - MYSURU (2N)
@@ -375,12 +375,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -436,7 +436,7 @@ export default function Karnataka(){
                         </tr>
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -449,37 +449,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -488,48 +488,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -537,11 +537,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.36,000/- + GST 5%</td>
                                     <td>Rs.27,000/- + GST 5%</td>
@@ -551,10 +551,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.28,000/- + GST 5%</td>
                                     <td>Rs.19,000/- + GST 5%</td>
@@ -565,12 +565,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.32,250/- + GST 5%</td>
                                     <td>Rs.24,750/- + GST 5%</td>
@@ -582,10 +582,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.26,250/- + GST 5%</td>
                                     <td>Rs.16,750/- + GST 5%</td>
@@ -597,26 +597,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -624,11 +624,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.49,900/- + GST 5%</td>
                                     <td>Rs.36,000/- + GST 5%</td>
@@ -638,10 +638,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.41,900/- + GST 5%</td>
                                     <td>Rs.28,000/- + GST 5%</td>
@@ -652,12 +652,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.46,150/- + GST 5%</td>
                                     <td>Rs.33,750/- + GST 5%</td>
@@ -669,10 +669,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.38,150/- + GST 5%</td>
                                     <td>Rs.25,750/- + GST 5%</td>
@@ -684,16 +684,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -716,16 +716,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -734,7 +734,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -746,8 +746,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -774,7 +774,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -788,8 +788,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -860,7 +860,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -886,13 +886,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -929,7 +929,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -947,8 +947,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-2">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 2</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 2</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -956,8 +956,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 BENGALURU (2N) - MYSURU (3N) – OOTY *TN(2N)
@@ -969,7 +969,7 @@ export default function Karnataka(){
                             
                         </tr>
                         
-                        <tr class="red-color">
+                        <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 BENGALURU (1N) - MYSURU (2N) – OOTY *TN(2N)
@@ -984,12 +984,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -1070,7 +1070,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -1083,37 +1083,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -1122,48 +1122,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -1171,11 +1171,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.46,000/- + GST 5%</td>
                                     <td>Rs.36,000/- + GST 5%</td>
@@ -1185,10 +1185,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.38,000/- + GST 5%</td>
                                     <td>Rs.28,000/- + GST 5%</td>
@@ -1199,12 +1199,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.40,750/- + GST 5%</td>
                                     <td>Rs.32,250/- + GST 5%</td>
@@ -1216,10 +1216,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.32,750/- + GST 5%</td>
                                     <td>Rs.26,250/- + GST 5%</td>
@@ -1231,26 +1231,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -1258,11 +1258,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.64,000/- + GST 5%</td>
                                     <td>Rs.49,900/- + GST 5%</td>
@@ -1272,10 +1272,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.56,000/- + GST 5%</td>
                                     <td>Rs.41,900/- + GST 5%</td>
@@ -1286,12 +1286,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.58,750/- + GST 5%</td>
                                     <td>Rs.46,150/- + GST 5%</td>
@@ -1303,10 +1303,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.50,750/- + GST 5%</td>
                                     <td>Rs.38,150/- + GST 5%</td>
@@ -1318,16 +1318,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -1350,16 +1350,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -1368,7 +1368,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -1380,8 +1380,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -1408,7 +1408,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -1424,8 +1424,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -1496,7 +1496,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -1522,13 +1522,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -1565,7 +1565,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -1583,8 +1583,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-3">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 3</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 3</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -1592,8 +1592,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 BENGALURU (2N) – HASSAN (1N) - MYSURU (3N)
@@ -1605,7 +1605,7 @@ export default function Karnataka(){
                             
                         </tr>
                         
-                        <tr class="red-color">
+                        <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 BENGALURU (1N) – HASSAN (1N) - MYSURU (2N)
@@ -1620,12 +1620,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -1697,7 +1697,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -1710,37 +1710,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -1749,48 +1749,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -1798,11 +1798,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.39,500/- + GST 5%</td>
                                     <td>Rs.30,500/- + GST 5%</td>
@@ -1812,10 +1812,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.31,500/- + GST 5%</td>
                                     <td>Rs.22,500/- + GST 5%</td>
@@ -1826,12 +1826,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.35,000/- + GST 5%</td>
                                     <td>Rs.27,500/- + GST 5%</td>
@@ -1843,10 +1843,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.27,000/- + GST 5%</td>
                                     <td>Rs.19,500/- + GST 5%</td>
@@ -1858,26 +1858,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -1885,11 +1885,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.58,000/- + GST 5%</td>
                                     <td>Rs.44,000/- + GST 5%</td>
@@ -1899,10 +1899,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.50,500/- + GST 5%</td>
                                     <td>Rs.36,000/- + GST 5%</td>
@@ -1913,12 +1913,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.54,000/- + GST 5%</td>
                                     <td>Rs.41,000/- + GST 5%</td>
@@ -1930,10 +1930,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.46,000/- + GST 5%</td>
                                     <td>Rs.33,000/- + GST 5%</td>
@@ -1945,16 +1945,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -1977,16 +1977,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -1995,7 +1995,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -2007,8 +2007,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -2035,7 +2035,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -2051,8 +2051,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -2123,7 +2123,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -2149,13 +2149,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -2192,7 +2192,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -2210,8 +2210,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-4">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 4</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 4</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -2219,8 +2219,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 BENGALURU (2N) – HASSAN (1N) - MYSURU (3N) - OOTY *TN(2N)
@@ -2232,7 +2232,7 @@ export default function Karnataka(){
                             
                         </tr>
                         
-                        <tr class="red-color">
+                        <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 BENGALURU (1N) – HASSAN (1N) - MYSURU (2N) - OOTY  *TN(2N)
@@ -2247,12 +2247,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -2342,7 +2342,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -2355,37 +2355,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -2394,48 +2394,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -2443,11 +2443,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.49,500/- + GST 5%</td>
                                     <td>Rs.39,500/- + GST 5%</td>
@@ -2457,10 +2457,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.41,500/- + GST 5%</td>
                                     <td>Rs.31,500/- + GST 5%</td>
@@ -2471,12 +2471,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.43,500/- + GST 5%</td>
                                     <td>Rs.35,000/- + GST 5%</td>
@@ -2488,10 +2488,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.35,500/- + GST 5%</td>
                                     <td>Rs.27,000/- + GST 5%</td>
@@ -2503,26 +2503,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -2530,11 +2530,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.72,500/- + GST 5%</td>
                                     <td>Rs.58,000/- + GST 5%</td>
@@ -2544,10 +2544,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.64,500/- + GST 5%</td>
                                     <td>Rs.50,000/- + GST 5%</td>
@@ -2558,12 +2558,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.66,500/- + GST 5%</td>
                                     <td>Rs.53,500/- + GST 5%</td>
@@ -2575,10 +2575,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.58,500/- + GST 5%</td>
                                     <td>Rs.45,500/- + GST 5%</td>
@@ -2590,16 +2590,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -2622,16 +2622,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -2640,7 +2640,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -2652,8 +2652,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -2680,7 +2680,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -2698,8 +2698,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -2770,7 +2770,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -2796,13 +2796,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -2839,7 +2839,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -2857,8 +2857,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-5">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 5</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 5</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -2866,8 +2866,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 BENGALURU (2N) - MYSURU (3N) – COORG (2N) – MANGULURU – (1N)
@@ -2879,7 +2879,7 @@ export default function Karnataka(){
                             
                         </tr>
                         
-                        <tr class="red-color">
+                        <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 BENGALURU (1N) - MYSURU (2N) –COORG (2N) – MANGULURU – (1N)
@@ -2894,12 +2894,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -2989,7 +2989,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -3002,37 +3002,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -3041,48 +3041,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -3090,11 +3090,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.49,500/- + GST 5%</td>
                                     <td>Rs.39,500/- + GST 5%</td>
@@ -3104,10 +3104,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.41,500/- + GST 5%</td>
                                     <td>Rs.31,500/- + GST 5%</td>
@@ -3118,12 +3118,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.43,500/- + GST 5%</td>
                                     <td>Rs.35,000/- + GST 5%</td>
@@ -3135,10 +3135,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.35,500/- + GST 5%</td>
                                     <td>Rs.27,000/- + GST 5%</td>
@@ -3150,26 +3150,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -3177,11 +3177,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.72,500/- + GST 5%</td>
                                     <td>Rs.58,000/- + GST 5%</td>
@@ -3191,10 +3191,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.64,500/- + GST 5%</td>
                                     <td>Rs.50,000/- + GST 5%</td>
@@ -3205,12 +3205,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.66,500/- + GST 5%</td>
                                     <td>Rs.53,500/- + GST 5%</td>
@@ -3222,10 +3222,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.58,500/- + GST 5%</td>
                                     <td>Rs.45,500/- + GST 5%</td>
@@ -3237,16 +3237,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -3269,16 +3269,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -3287,7 +3287,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -3299,8 +3299,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -3327,7 +3327,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -3345,8 +3345,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -3417,7 +3417,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -3443,13 +3443,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -3486,7 +3486,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -3504,8 +3504,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-6">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 6</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 6</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -3513,8 +3513,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 BENGALURU (2N) – HASSAN (1N) - MYSURU (3N) - COORG (2N) – MANGALURU  (1N)
@@ -3526,7 +3526,7 @@ export default function Karnataka(){
                             
                         </tr>
                         
-                        <tr class="red-color">
+                        <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 BENGALURU (1N) – HASSAN (1N) - MYSURU (2N) - COORG  (2N) – MANGALURU (1N)
@@ -3541,12 +3541,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -3645,7 +3645,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -3658,37 +3658,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -3697,48 +3697,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -3746,11 +3746,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.55,000/- + GST 5%</td>
                                     <td>Rs.46,000/- + GST 5%</td>
@@ -3760,10 +3760,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.47,000/- + GST 5%</td>
                                     <td>Rs.38,000/- + GST 5%</td>
@@ -3774,12 +3774,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.48,250/- + GST 5%</td>
                                     <td>Rs.40,750/- + GST 5%</td>
@@ -3791,10 +3791,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.40,250/- + GST 5%</td>
                                     <td>Rs.32,750/- + GST 5%</td>
@@ -3806,26 +3806,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -3833,11 +3833,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.79,500/- + GST 5%</td>
                                     <td>Rs.64,000/- + GST 5%</td>
@@ -3847,10 +3847,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.71,500/- + GST 5%</td>
                                     <td>Rs.56,000/- + GST 5%</td>
@@ -3861,12 +3861,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.72,750/- + GST 5%</td>
                                     <td>Rs.58,750/- + GST 5%</td>
@@ -3878,10 +3878,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.66,750/- + GST 5%</td>
                                     <td>Rs.50,750/- + GST 5%</td>
@@ -3893,16 +3893,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -3925,16 +3925,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -3943,7 +3943,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -3955,8 +3955,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -3983,7 +3983,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -4003,8 +4003,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -4075,7 +4075,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -4101,13 +4101,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -4144,7 +4144,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -4162,8 +4162,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-7">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 7</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 7</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -4171,8 +4171,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 BENGALURU (2N) - MYSURU (3N) – HASSAN / CHIKMAGALUR (3N) – UDUPI / MANGALURU (1N)
@@ -4184,7 +4184,7 @@ export default function Karnataka(){
                             
                         </tr>
                         
-                        <tr class="red-color">
+                        <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 BENGALURU (1N) - MYSURU (2N) – HASSAN / CHIKMAGALUR (3N) – UDUPI / MANGALURU (1N)
@@ -4199,12 +4199,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -4303,7 +4303,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -4316,37 +4316,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -4355,48 +4355,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -4404,11 +4404,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.55,000/- + GST 5%</td>
                                     <td>Rs.46,000/- + GST 5%</td>
@@ -4418,10 +4418,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.47,000/- + GST 5%</td>
                                     <td>Rs.38,000/- + GST 5%</td>
@@ -4432,12 +4432,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.48,250/- + GST 5%</td>
                                     <td>Rs.40,750/- + GST 5%</td>
@@ -4449,10 +4449,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.40,250/- + GST 5%</td>
                                     <td>Rs.32,750/- + GST 5%</td>
@@ -4464,26 +4464,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -4491,11 +4491,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.79,500/- + GST 5%</td>
                                     <td>Rs.64,000/- + GST 5%</td>
@@ -4505,10 +4505,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.71,500/- + GST 5%</td>
                                     <td>Rs.56,000/- + GST 5%</td>
@@ -4519,12 +4519,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.72,750/- + GST 5%</td>
                                     <td>Rs.58,750/- + GST 5%</td>
@@ -4536,10 +4536,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.64,750/- + GST 5%</td>
                                     <td>Rs.50,750/- + GST 5%</td>
@@ -4551,16 +4551,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -4583,16 +4583,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -4601,7 +4601,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -4613,8 +4613,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -4641,7 +4641,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -4663,8 +4663,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -4735,7 +4735,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -4761,13 +4761,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -4804,7 +4804,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -4822,8 +4822,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-8">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 8</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 8</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -4831,8 +4831,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 BENGALURU (2N) – CHITRADURGA (1N) - HAMPI (2N) –  BADAMI (2N) – GOA (2N)
@@ -4844,7 +4844,7 @@ export default function Karnataka(){
                             
                         </tr>
                         
-                        <tr class="red-color">
+                        <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 BENGALURU (1N) – CHITRADURGA (1N) - HAMPI (2N) –  BADAMI (1N) – HUBLI (1N)
@@ -4859,12 +4859,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -4963,7 +4963,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -4976,37 +4976,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -5015,48 +5015,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -5064,11 +5064,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.55,000/- + GST 5%</td>
                                     <td>Rs.39,500/- + GST 5%</td>
@@ -5078,10 +5078,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.47,000/- + GST 5%</td>
                                     <td>Rs.31,500/- + GST 5%</td>
@@ -5092,12 +5092,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.48,250/- + GST 5%</td>
                                     <td>Rs.35,000/- + GST 5%</td>
@@ -5109,10 +5109,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.40,250/- + GST 5%</td>
                                     <td>Rs.27,000/- + GST 5%</td>
@@ -5124,26 +5124,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -5151,11 +5151,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.79,500/- + GST 5%</td>
                                     <td>Rs.58,000/- + GST 5%</td>
@@ -5165,10 +5165,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.71,500/- + GST 5%</td>
                                     <td>Rs.50,000/- + GST 5%</td>
@@ -5179,12 +5179,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.72,750/- + GST 5%</td>
                                     <td>Rs.53,500/- + GST 5%</td>
@@ -5196,10 +5196,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.64,750/- + GST 5%</td>
                                     <td>Rs.45,500/- + GST 5%</td>
@@ -5211,16 +5211,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -5243,16 +5243,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -5261,7 +5261,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -5273,8 +5273,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -5301,7 +5301,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             CHITRADURGA – HOTEL AMOGHA INTERNATIONAL or its equivalent
@@ -5323,8 +5323,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -5395,7 +5395,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -5421,13 +5421,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -5464,7 +5464,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -5482,8 +5482,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-10">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 10</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 10</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -5491,8 +5491,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 MANGALURU (1N) – HASSAN (1N) –CHIKMAGALUR (2N) –  UDUPI (1N)
@@ -5510,12 +5510,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -5578,7 +5578,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -5591,37 +5591,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -5630,48 +5630,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -5679,11 +5679,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.36,000/- + GST 5%</td>
                                     <td>------------------------- + GST 5%</td>
@@ -5693,10 +5693,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.28,000/- + GST 5%</td>
                                     <td>------------------------- + GST 5%</td>
@@ -5707,12 +5707,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.32,250/- + GST 5%</td>
                                     <td>------------------------- + GST 5%</td>
@@ -5724,10 +5724,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.24,250/- + GST 5%</td>
                                     <td>------------------------- + GST 5%</td>
@@ -5739,26 +5739,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -5766,11 +5766,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.49,900/- + GST 5%</td>
                                     <td>------------------------- + GST 5%</td>
@@ -5780,10 +5780,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.41,900/- + GST 5%</td>
                                     <td>------------------------- + GST 5%</td>
@@ -5794,12 +5794,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.46,150/- + GST 5%</td>
                                     <td>------------------------- + GST 5%</td>
@@ -5811,10 +5811,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.38,150/- + GST 5%</td>
                                     <td>------------------------- + GST 5%</td>
@@ -5826,16 +5826,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -5858,16 +5858,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -5876,7 +5876,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -5888,8 +5888,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -5916,7 +5916,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> CHIKMAGALUR – HOTEL ROBUSTAINN or its equivalent <br />
                             KALASA - HOTEL ASHIRWAD or its equivalent
@@ -5936,8 +5936,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -6008,7 +6008,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -6034,13 +6034,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -6077,7 +6077,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -6095,8 +6095,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-11">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 11</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 11</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -6104,8 +6104,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 DESTINATION: MANGALURU (1N) – KUKKE SUBRAMANYA (1N) – CHIKMAGALUR (3N) – UDUPI (1N) VISIT SHREE RAJARAJESHWARI, SHREE DURGAPARAMESHWARI SHREE SUBRAMANYA, SHREE DHARMASTHALA, SHREE SHARADAMBA SHRINGERI, SHREE ANNAPOORNESHWARI HORANADU and SHREE KRISHNA TEMPLE
@@ -6121,12 +6121,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -6198,7 +6198,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -6211,37 +6211,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -6250,48 +6250,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -6299,11 +6299,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.39,500/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6313,10 +6313,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.31,500/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6327,12 +6327,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.35,000/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6344,10 +6344,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.27,000/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6359,26 +6359,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -6386,11 +6386,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.58,500/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6400,10 +6400,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.50,000/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6414,12 +6414,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.54,000/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6431,10 +6431,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.46,000/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6446,16 +6446,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -6478,16 +6478,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -6496,7 +6496,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -6508,8 +6508,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -6536,7 +6536,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> CHIKMAGALUR – HOTEL ROBUSTAINN or its equivalent <br />
                             KALASA - HOTEL ASHIRWAD or its equivalent
@@ -6556,8 +6556,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -6628,7 +6628,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -6654,13 +6654,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -6697,7 +6697,7 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 {/* <!-- Necessary documents --> */}
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
@@ -6715,8 +6715,8 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-12">
-                <h4 class="font-weight"><span class="lightblue-color"> Fabulous Himachal </span>- Tour 12</h4>
-                <table class="table table-striped grey-bg-table">
+                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 12</h4>
+                <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
                             <th scope="col">Package</th>
@@ -6724,8 +6724,8 @@ export default function Karnataka(){
                             <th scope="col">Duration</th>
                         </tr>
                     </thead>
-                    <tbody class="font-weight-light">
-                        <tr class="blue-color">
+                    <tbody className="font-weight-light">
+                        <tr className="blue-color">
                             <td>COMFORT</td>
                             <td>
                                 MANGALURU (1N) – KUKKE SUBRAMANYA (1N) - CHIKMAGALUR (3N) – UDUPI (1N) - GOKARNA (1N) – GOA (2N) VISIT SHREE RAJARAJESHWARI, SHREE DURGAPARAMESHWARI SHREE SUBRAMANYA, SHREE DHARMASTHALA, SHREE SHARADAMBA SHRINGERI, SHREE ANNAPOORNESHWARI HORANADU, SHREE KRISHNA TEMPLE, SHREE MOOKAMBIKA, SHREE MURUDESHWAR, SHREE MAHABALESHWARA SWAMI TEMPLE, SHREE MANGESHI and SHREE SHANTA DURGA TEMPLE.
@@ -6741,12 +6741,12 @@ export default function Karnataka(){
                 </table>
                 <br />
                 <center>
-                    <p class="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
+                    <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
                         flexible and subject to changes).</p>
                 </center>
             
                 {/* <!-- Itinerary Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="06%">
@@ -6845,7 +6845,7 @@ export default function Karnataka(){
                     
                     
                     <tr style={{"fontWeight":"600"}}>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             Note: 1) Some of the sightseeing places may be closed on specific days.  <br />
                             2) There may be road blockages due to traffic jam, bad weather, demonstrations etc. which can cause delay in reaching a place of visit. In both the above cases we may opt for other sightseeing places or we may even avoid any spot in extreme conditions. <br />
                             
@@ -6858,37 +6858,37 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Includes table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
                             <td>
-                                <h6 class="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
+                                <h6 className="font-weight">ACCOMODATION: </h6>In Deluxe Hotels/ Resorts (single/ two/ triple/ four
                                 sharing) <br />
-                                <span class="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
+                                <span className="font-weight">Note:</span> Normally in Indian Hotels the Check-in time is around 01:00
                                 pm. and check-out time is around 10:00 am.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">TRASPORTATION:</h6> 2 Way <span class="font-weight">Flight</span> (including
+                                <h6 className="font-weight">TRASPORTATION:</h6> 2 Way <span className="font-weight">Flight</span> (including
                                 taxes and baggage allowance as per the airline policy) <br />
-                                <span class="font-weight">For couple / family:</span> Car – A/c<br />
-                                <span class="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
+                                <span className="font-weight">For couple / family:</span> Car – A/c<br />
+                                <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
-                                <span class="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                                <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
+                                <h6 className="font-weight">SERVICES:</h6>Tour Assistant / Guide (excluding air / rail travel)
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <h6 class="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
+                                <h6 className="font-weight">FEES:</h6>Entry fees for places of visit mentioned in the itinerary, tolls
                                 and state border Permits.
                             </td>
                         </tr>
@@ -6897,48 +6897,48 @@ export default function Karnataka(){
                 <br />
             
                 {/* <!-- Rates table 1 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Regular tour for couple / family / Group is arranged on any date throughout the
                                 year according to the time availability
                                 and convenience of the guests.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
-                            <p class="font-weight">Scheduled Tour is organised on specific dates.</p>
+                        <td colSpan={"2"}>
+                            <p className="font-weight">Scheduled Tour is organised on specific dates.</p>
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="2">
+                        <td colSpan={"2"}>
                             <center>
-                                <p class="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
+                                <p className="font-weight">TOUR COST per person on twin sharing basis, except vacations and long
                                     holidays.</p>
                             </center>
                         </td>
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="blue-color">REGULAR TOUR for</span><span class="red-color">
-                                    Group</span><span class="blue-color"> 7 person and above</span>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span>
                                 Travel by Tempo Traveller / Bus</p>
                             <p>Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -6946,11 +6946,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.55,000/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6960,10 +6960,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.47,500/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6974,12 +6974,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.48,250/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -6991,10 +6991,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.40,750/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -7006,26 +7006,26 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Rates Table 2 --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p class="font-weight"><span class="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
+                            <p className="font-weight"><span className="purple-color">REGULAR TOUR for couple / family <br /> Exclusively
                                     travel by car</span></p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colSpan={"2"}>
                                         <center>TOUR TYPE</center>
                                     </td>
                                 </tr>
                                 <tr style={{"marginBottom": "0%"}}>
                                     <td>
-                                        <center><span class="darkblue-color font-weight">COMFORT</span></center>
+                                        <center><span className="darkblue-color font-weight">COMFORT</span></center>
                                     </td>
                                     <td>
-                                        <center><span class="red-color font-weight">COMPACT</span></center>
+                                        <center><span className="red-color font-weight">COMPACT</span></center>
                                     </td>
                                 </tr>
                             </table>
@@ -7033,11 +7033,11 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
+                            <span className="green-color font-weight">LUXURY TOUR</span> Inclusive of all mentioned above in tour cost
                             includes.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.79,500/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -7047,10 +7047,10 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            <span class="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
+                            <span className="green-color font-weight">LUXURY TOUR</span> Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.71,500/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -7061,12 +7061,12 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Accommodation Standard / Home Stay, Food all
                             meals fixed
                             menu, inclusive of transport, services and fees mentioned above
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.72,750/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -7078,10 +7078,10 @@ export default function Karnataka(){
                     
                     <tr>
                         <td>
-                            <span class="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
+                            <span className="brown-color font-weight">BUDGET TOUR </span>Excluding Air Fare.
                         </td>
                         <td style={{"padding": "0%"}}>
-                            <table style={{"marginBottom": "0%"}} class="table table-bordered">
+                            <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>Rs.64,750/- + GST 5%</td>
                                     <td>--------------------------- + GST 5%</td>
@@ -7093,16 +7093,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Scheduled Table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="75%">
-                            <span class="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
+                            <span className="red-color font-weight">Scheduled Tour</span> Travel by Tempo Traveller / Bus<br />
                             Departure Dates: ----------------------------------------------------- dates will be notified
                         </td>
                         <td width="25%">
-                            <p class="font-weight">PACKAGE <span class="green-color">LUXURY</span> <br />
-                                TYPE <span class="darkblue-color">COMFORT</span></p>
+                            <p className="font-weight">PACKAGE <span className="green-color">LUXURY</span> <br />
+                                TYPE <span className="darkblue-color">COMFORT</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -7125,16 +7125,16 @@ export default function Karnataka(){
                 </table>
             
                 {/* <!-- Childs table --> */}
-                <table class="table table-striped table-bordered border-secondary">
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
-                        <td width="33%" class="font-weight">Child below 2yrs. – 70% discount</td>
-                        <td width="33%" class="font-weight">Child between 2 - 4yrs. - 50% discount</td>
-                        <td class="font-weight">Child between 5 - 11yrs. - 30% discount</td>
+                        <td width="33%" className="font-weight">Child below 2yrs. – 70% discount</td>
+                        <td width="33%" className="font-weight">Child between 2 - 4yrs. - 50% discount</td>
+                        <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colspan="3" width="50%" class="font-weight" style={{"padding": "0%"}}>
-                            <table class="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
+                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                            <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
@@ -7143,7 +7143,7 @@ export default function Karnataka(){
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="font-weight">
+                        <td colSpan={"3"} className="font-weight">
                             Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
                             <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
@@ -7155,8 +7155,8 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p class="font-weight">Note:</p>
-                <table class="table table-bordered table-striped border-secondary">
+                <p className="font-weight">Note:</p>
+                <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
                         <td>The above packages pick up and drop is from Bengaluru.</td>
@@ -7183,7 +7183,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td class="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> CHIKMAGALUR – HOTEL ROBUSTAINN or its equivalent <br />
                             KALASA - HOTEL ASHIRWAD or its equivalent
@@ -7205,8 +7205,8 @@ export default function Karnataka(){
                 </table>
                 <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
-                <h6 class="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
-                <table class="table table-striped table-bordered border-secondary">
+                <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td>
@@ -7277,7 +7277,7 @@ export default function Karnataka(){
                     </tr>
                     <tr>
                         <td>
-                            *Any upgradation in airline class, vehicle, hotel or hotel room category.
+                            *Any upgradation in airline className= vehicle, hotel or hotel room category.
                         </td>
                     </tr>
                     <tr>
@@ -7303,13 +7303,13 @@ export default function Karnataka(){
                     </tbody>
                 </table>
                 <br />
-                <p><span style={{"textDecoration": "underline"}} class="font-weight">Baggage Allowance: </span>Participants are
+                <p><span style={{"textDecoration": "underline"}} className="font-weight">Baggage Allowance: </span>Participants are
                     requested to abide by the airline policy for the weight and size of Checked-in
                     baggage and
                     cabin hand baggage per person.</p>
                 <br />
-                <p><span class="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
-                <table class="table table-striped table-bordered border-secondary">
+                <p><span className="font-weight" style={{"textDecoration": "underline"}}>Cancellation:</span> - (refund on full amount)</p>
+                <table className="table table-striped table-bordered border-secondary">
                     <tbody>
                     <tr>
                         <td width="55%">121 days and above prior to the tour</td>
@@ -7345,7 +7345,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p class="font-weight">Necessary Documents Required</p>
+                <p className="font-weight">Necessary Documents Required</p>
                 <p>
                     1. Aadhar Card / Voters ID / Passport / Driving Licence <br />
                     2. ID card is mandatory at time of booking, kindly carry the same ID card on tour. <br />
