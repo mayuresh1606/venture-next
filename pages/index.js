@@ -238,7 +238,7 @@ export default function Home() {
           to
           places dreams are made of. We aim to provide you a complete holiday package.
         
-          Discover nature’s hidden treasure with venture world in the high picturesque and majestic mountains, the snow covered
+          Discover nature&quot;s hidden treasure with venture world in the high picturesque and majestic mountains, the snow covered
           glaciers, the golden deserts and the awe inspiring sand dunes, get a closer look at the flora and fauna in their
           natural
           environment and enjoy natures bounty. Relax and enjoy the water sports at the sun kissed beaches. Widen your horizons

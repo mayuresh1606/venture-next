@@ -34,12 +34,12 @@ export default function Karnataka(){
             <center>
                 <h1>Majestic Karnataka</h1>
             </center>
-            <p className="font-weight">VENTURE WORLD’S packages: <span className="green-color"><span
+            <p className="font-weight">VENTURE WORLD&quot;S packages: <span className="green-color"><span
                         style={{"textDecoration": "underline"}}>PACKAGE 1 -</span> LUXURY TOUR</span><br />
-                <span style={{"color": "transparent"}}>VENTURE WORLD’S packages: </span><span className="brown-color"><span
+                <span style={{"color": "transparent"}}>VENTURE WORLD&quot;S packages: </span><span className="brown-color"><span
                         style={{"textDecoration": "underline"}}>PACKAGE 2 -</span> BUDGET TOUR</span>
             </p>
-            <p className="blue-color font-weight">TOUR TYPE 1 COMFORT - We don’t run in the tour -We stroll in the tour </p>
+            <p className="blue-color font-weight">TOUR TYPE 1 COMFORT - We don&quot;t run in the tour -We stroll in the tour </p>
             <p className="red-color font-weight">TOUR TYPE 2 COMPACT – Itinerary Carved Tour</p>
             <p className="font-weight">CLICK on the <span className="lightblue-color" style={{"textDecoration": "underline"}}>Tour
                     number</span> of your choice for tour itinerary, tour cost, cost includes / not includes and for more
@@ -411,7 +411,7 @@ export default function Karnataka(){
                             Day 4
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee visit St Philomena’s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
+                            Morning after breakfast tea / coffee visit St Philomena&quot;s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
                         </td>
                     </tr>
                     <tr>
@@ -786,7 +786,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -1020,7 +1020,7 @@ export default function Karnataka(){
                             Day 4
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee visit St Philomena’s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
+                            Morning after breakfast tea / coffee visit St Philomena&quot;s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
                         </td>
                     </tr>
                     <tr>
@@ -1422,7 +1422,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -1664,7 +1664,7 @@ export default function Karnataka(){
                             Day 5
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee visit St Philomena’s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
+                            Morning after breakfast tea / coffee visit St Philomena&quot;s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
                         </td>
                     </tr>
                     
@@ -2049,7 +2049,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -2291,7 +2291,7 @@ export default function Karnataka(){
                             Day 5
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee visit St Philomena’s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
+                            Morning after breakfast tea / coffee visit St Philomena&quot;s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
                         </td>
                     </tr>
                     
@@ -2313,7 +2313,7 @@ export default function Karnataka(){
                                 Day 7
                             </td>
                             <td>
-                                Morning after breakfast tea / coffee proceed to Coonoor and visit dolphin’s nose, Lamb’s Rock, Sim’s Park, Tea Garden and factory. Afternoon visit the fascinating Botanical Garden. Evening visit and admire the beautiful Ooty Lake, guests can also enjoy various activities organised by the locals at their own expenses. Later the guests can also enjoy shopping. Lunch, evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Ooty.
+                                Morning after breakfast tea / coffee proceed to Coonoor and visit dolphin&quot;s nose, Lamb&quot;s Rock, Sim&quot;s Park, Tea Garden and factory. Afternoon visit the fascinating Botanical Garden. Evening visit and admire the beautiful Ooty Lake, guests can also enjoy various activities organised by the locals at their own expenses. Later the guests can also enjoy shopping. Lunch, evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Ooty.
                             </td>
                         </tr>
                     
@@ -2696,7 +2696,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -2938,7 +2938,7 @@ export default function Karnataka(){
                             Day 5
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee visit St Philomena’s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
+                            Morning after breakfast tea / coffee visit St Philomena&quot;s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
                         </td>
                     </tr>
                     
@@ -2960,7 +2960,7 @@ export default function Karnataka(){
                                 Day 7
                             </td>
                             <td>
-                                Morning after breakfast tea / coffee visit Talacauvery, the birthplace of the sacred River Kaveri. Afternoon visit Abbey Falls (only during monsoon), Raja’s Tomb, Madikeri Fort Omkareshwara Temple and Raja’s Seat and shopping specially the locally grown coffee and spice products. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Madikeri.
+                                Morning after breakfast tea / coffee visit Talacauvery, the birthplace of the sacred River Kaveri. Afternoon visit Abbey Falls (only during monsoon), Raja&quot;s Tomb, Madikeri Fort Omkareshwara Temple and Raja&quot;s Seat and shopping specially the locally grown coffee and spice products. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Madikeri.
                             </td>
                         </tr>
                     
@@ -3343,7 +3343,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -3617,7 +3617,7 @@ export default function Karnataka(){
                                 Day 8
                             </td>
                             <td>
-                                Morning after breakfast tea / coffee visit Talacauvery, the birthplace of the sacred River Kaveri. Afternoon visit Abbey Falls (only during monsoon), Raja’s Tomb, Madikeri Fort Omkareshwara Temple and Raja’s Seat and shopping specially the locally grown coffee and spice products. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Madikeri.
+                                Morning after breakfast tea / coffee visit Talacauvery, the birthplace of the sacred River Kaveri. Afternoon visit Abbey Falls (only during monsoon), Raja&quot;s Tomb, Madikeri Fort Omkareshwara Temple and Raja&quot;s Seat and shopping specially the locally grown coffee and spice products. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Madikeri.
                             </td>
                         </tr>
                     
@@ -4001,7 +4001,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -4243,7 +4243,7 @@ export default function Karnataka(){
                             Day 5
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee visit St Philomena’s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
+                            Morning after breakfast tea / coffee visit St Philomena&quot;s church and Zoological Garden one of the oldest and most popular zoos in India, possessing wide range of species. Afternoon visit Jaganmohan Palace Art Gallery one of the largest collections of artifacts in South India. Evening enjoys shopping. Lunch, Evening snacks tea / coffee at sightseeing places. Night dinner and stay at hotel in Mysuru.
                         </td>
                     </tr>
                     
@@ -4661,7 +4661,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -5321,7 +5321,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -5934,7 +5934,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -6554,7 +6554,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
@@ -7203,7 +7203,7 @@ export default function Karnataka(){
                     </tr>
                     </tbody>
                 </table>
-                <p>Tour cost for NRI’s or foreign nationals varies, for more details kindly contact Venture World</p>
+                <p>Tour cost for NRI&quot;s or foreign nationals varies, for more details kindly contact Venture World</p>
                 {/* <!-- Tour cost does not include table --> */}
                 <h6 className="font-weight" style={{"textDecoration": "underline"}}>TOUR COST DOES NOT INCLUDE</h6>
                 <table className="table table-striped table-bordered border-secondary">
