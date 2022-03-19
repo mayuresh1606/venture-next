@@ -114,3 +114,1182 @@
     flex-direction: column;
   }
 }
+
+/* MY CSS */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap');
+.body {
+  overflow-x: hidden;
+  font-family: 'Dosis', sans-serif;
+}
+.header {
+  width: 100vw;
+}
+.navbar {
+  min-height: 12vh;
+  width: 100vw;
+  background: linear-gradient(133deg, #d5baba, #b1b1b100) !important;
+}
+.navContents {
+  display: grid;
+  margin: 0 auto;
+  place-content: center;
+  height: auto;
+}
+.my-container {
+  width: 80vw;
+  margin: 0px 10vw;
+  height: auto;
+  /* background-color: black; */
+  /* text-align: center; */
+  background-color: rgb(236, 235, 235);
+  padding: 07vh 5vw;
+}
+.left-images,
+.right-images {
+  height: 100%;
+}
+.edu-container,
+.details-container {
+  display: grid;
+  grid-template-columns: 15vw 40vw 15vw;
+  place-items: center;
+}
+.details-container {
+  place-items: stretch;
+}
+.edu-sect {
+  margin: 25px 10px;
+}
+.educational-img,
+.detailed-tour-img {
+  border: 2px solid grey;
+  width: 215px;
+  margin-bottom: 15px;
+}
+.edu-img,
+.detail-tour-img {
+  width: 180px;
+  height: 130px;
+  margin: 15px;
+}
+#all-group {
+  width: 95%;
+}
+.costs-row {
+  border-bottom: 1px solid grey;
+}
+.tour-td-desc {
+  padding: 5px 10px;
+}
+/* slide show */
+.imp-pack-top {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-items: center;
+}
+.box-heading {
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.margin-right {
+  margin-right: 8px;
+}
+.couple-box,
+.family-tours-box,
+.educational-tours-box {
+  border: 2px solid grey;
+  width: 19vw;
+  min-height: 28vh;
+}
+[data-component='slideshow'] .slide {
+  display: none;
+}
+[data-component='slideshow'] .slide.active {
+  display: block;
+  width: 70vw;
+}
+.banner-img {
+  width: 70vw;
+  height: auto;
+}
+.ban-img {
+  width: 60vw;
+  margin: 0 5vw;
+  height: 50vh;
+  margin-bottom: 2.5vh;
+}
+.display-img {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.close-btn {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.disp-link-img {
+  width: 40vw;
+  height: 65vh;
+}
+.top-td {
+  border: 2px solid black;
+}
+.my-tables {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 7vh;
+}
+.imp-packs {
+  width: 50vw;
+  margin-right: 1.5vw;
+}
+.aside-tables {
+  width: 20vw;
+  margin-left: 1.5vw;
+}
+.aside-heading {
+  text-decoration: none;
+  color: chocolate;
+}
+.aside-content {
+  color: grey;
+  text-decoration: none;
+  margin-left: 3px;
+}
+.aside-content:hover {
+  color: black;
+}
+.inside-table {
+  min-width: 30vw;
+}
+.educational-tours,
+.adventure-tours,
+.pilgrimage {
+  min-height: 40vh;
+  width: 17vw;
+  border: 2px solid grey;
+  margin-bottom: 3vh;
+  padding: 0 10px;
+}
+.educational-tours span,
+.adventure-tours span,
+.pilgrimage span {
+  margin-right: 4px;
+}
+.package-content {
+  display: grid;
+  place-items: center;
+  width: 65vw;
+  height: auto;
+}
+.package-details {
+  height: 90vh;
+  width: 40vw;
+  background-color: rgb(120, 120, 214);
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.col-1 {
+  width: 17vw;
+}
+.left-img {
+  width: 15vw;
+  height: 10vh;
+}
+.col-2 {
+  width: 23vw;
+}
+.left-boxes {
+  padding: 0;
+}
+.box {
+  width: 15rem;
+  height: 7rem;
+  border-radius: 15px 50px;
+  text-align: center;
+  display: grid;
+  place-content: center;
+  margin-bottom: 10px;
+}
+.box-bg-pink {
+  background: linear-gradient(222deg, #d87ac1, transparent) !important;
+}
+.box-bg-yellow {
+  background: linear-gradient(222deg, #dfdd76, transparent) !important;
+}
+.box-bg-green {
+  background: linear-gradient(222deg, #70d370, transparent) !important;
+}
+.box-bg-purple {
+  background: linear-gradient(222deg, #ba6fdd, transparent) !important;
+}
+.box-bg-darkgreen {
+  background: linear-gradient(222deg, #52ee3d, transparent) !important;
+}
+.box-bg-red-orange {
+  background: linear-gradient(222deg, #ff9c00, transparent) !important;
+}
+.grey-bg-table {
+  color: black;
+  font-weight: 400;
+  background: linear-gradient(
+    120deg,
+    rgb(224, 223, 223),
+    transparent
+  ) !important;
+}
+.new-content {
+  color: black;
+  font-weight: 600;
+}
+.box-2 {
+  width: 15rem;
+  height: 7rem;
+  border-radius: 50px 15px;
+  background: linear-gradient(45deg, #79c2e5, transparent);
+  text-align: center;
+  display: grid;
+  place-content: center;
+  margin-bottom: 10px;
+}
+.font-weight-light {
+  font-weight: 600;
+}
+.group-table {
+  width: 30rem;
+  height: 17rem;
+}
+.heading-box-2 {
+  text-align: left;
+}
+.line {
+  margin: 0;
+}
+.underline {
+  text-decoration: underline;
+}
+.highlight {
+  text-decoration: solid;
+}
+.venture-slogan {
+  color: crimson;
+  font-weight: 600;
+}
+.head-line {
+  margin: 0 0 7px 0;
+}
+.details-box {
+  margin-top: 2.5vh;
+  width: 20vw;
+  height: 30vh;
+}
+.detail-images {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
+}
+.detailed-img {
+  width: 10vw;
+  height: 15vh;
+}
+.match-width,
+.card {
+  max-width: 300px;
+}
+.green-color {
+  color: green;
+}
+.blue-color {
+  color: rgb(66, 66, 182) !important;
+}
+.lightblue-color {
+  color: rgb(0, 191, 255);
+}
+.brown-color {
+  color: brown;
+}
+.maroon-color {
+  color: maroon;
+}
+.purple-color {
+  color: purple;
+}
+.red-color {
+  color: red;
+}
+.darkBlueColor {
+  color: darkblue;
+}
+
+.figure,
+.tour-info {
+  margin: 30px;
+}
+.figure img {
+  width: 550px;
+  height: 420px;
+  image-resolution: 400px;
+}
+.venture-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 80px 40px;
+}
+.venture-info .tour-img {
+  margin-right: 30px;
+}
+.venture-info .tour-info {
+  width: 380px;
+  margin-left: 30px;
+}
+.venture-info .tour-img img {
+  width: 550px;
+  height: 420px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 10px 10px 17px 4px grey;
+}
+.venture-info .tour-info .match-width {
+  margin: 4px 3px;
+  font-weight: 300;
+  font-size: large;
+  color: rgb(99, 102, 102);
+}
+.venture-info .tour-info .btn {
+  position: relative;
+  top: 25%;
+}
+.venture-info .tour-info a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+}
+.myUl {
+  background-color: #d7c2c6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  width: 80vw;
+  padding: 0;
+}
+.ulBackground:hover {
+  background-color: rgb(209, 134, 134);
+}
+.font-weight {
+  font-weight: 700;
+}
+.hidden {
+  visibility: hidden;
+}
+.reverse {
+  direction: rtl;
+  text-align: left;
+}
+.tour-links {
+  text-decoration: none;
+}
+.tour-package-names {
+  margin-right: 5px;
+  color: gray;
+}
+.tour-package-names:hover {
+  color: #a8a8a8;
+}
+.email-id {
+  color: rgb(72, 72, 247);
+}
+.address {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+/* Contact */
+.email-field {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-items: center;
+}
+.message {
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center;
+  width: 65vw;
+}
+#field {
+  width: 30vw;
+  height: 10vh;
+}
+#field-2 {
+  width: 65vw;
+  margin: 2.5vh 2.5vw;
+}
+/* image in package */
+.dummy-img {
+  width: 60vw;
+  height: 80vh;
+}
+.map-venture {
+  width: 40vw;
+  height: 40vh;
+}
+#submit-button {
+  background-color: burlywood;
+  color: black;
+}
+.footer {
+  background-color: rgb(44, 44, 44);
+  height: 15vh;
+  color: white;
+}
+.footer-details {
+  display: flex;
+  vertical-align: middle;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  vertical-align: middle;
+  height: 15vh;
+}
+.copyright {
+  margin: 0 10vw;
+  top: 40%;
+  position: relative;
+  height: fit-content;
+}
+.dev-details {
+  height: fit-content;
+  top: 30%;
+  position: relative;
+  margin: 0 10vw;
+  color: grey;
+}
+.himachal-img {
+  text-align: center;
+}
+.himachal-img img {
+  width: 40vw;
+  height: 90vh;
+}
+.ventureLogo {
+  font-size: 2.5rem;
+  color: #4b4b97;
+  font-family: skope, serif;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.ventureLogoDesc {
+  font-style: italic;
+  color: crimson;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+@media only screen and (min-width: 280px) and (max-width: 326px) {
+  .my-container {
+    width: 100vw;
+    height: auto;
+    margin: 0px;
+    /* padding: 07vh 05vw; */
+  }
+  .ul {
+    font-size: 0.8rem;
+    width: 100vw;
+  }
+  .ventureLogo {
+    font-size: 1.5rem;
+    color: #4b4b97;
+    font-family: skope, serif;
+    font-weight: 800;
+  }
+  .ventureLogoDesc {
+    font-style: italic;
+    color: crimson;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .venture-slogan {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .imp-pack-top {
+    grid-template-columns: 30% 70%;
+  }
+  .box,
+  .box-2 {
+    width: 32vw;
+    height: 5rem;
+    border-radius: 15px 40px;
+  }
+  .group-table {
+    width: 100%;
+    height: 15rem;
+  }
+  .font-size-small {
+    font-size: small;
+  }
+  .edu-container,
+  .details-container {
+    display: grid;
+    grid-template-columns: 18vw 60vw 18vw;
+    place-items: center;
+    padding: 7vh 2vw;
+  }
+  .details-container {
+    place-items: stretch;
+  }
+  .edu-heading {
+    font-size: medium;
+  }
+  .venture-description {
+    font-size: small;
+    margin-top: 15px;
+  }
+  .table {
+    font-size: smaller;
+  }
+  .edu-table {
+    font-size: 0.3rem !important;
+  }
+  .td-padding {
+    padding: 3px;
+  }
+  .ban-img {
+    width: 80vw;
+    margin: 0 5vw;
+    height: 25vh;
+    margin-bottom: 2.5vh;
+  }
+  .edu-tables {
+    margin: 0px 0.4rem;
+    width: 57vw;
+    font-size: 0.6rem;
+  }
+  .edu-sect {
+    margin: 25px 10px;
+    font-size: smaller;
+  }
+  .table-responsive {
+    max-width: 55vw;
+    font-size: 0.4rem !important;
+  }
+  .aside-tables {
+    width: 39vw;
+    margin-left: 1.5vw;
+  }
+  .educational-tours,
+  .adventure-tours,
+  .pilgrimage {
+    min-height: 35vh;
+    width: 37.5vw;
+    border: 2px solid grey;
+    margin: 0 5px 3vh;
+    padding: 0 10px;
+  }
+  .aside-content-heading {
+    font-size: medium;
+  }
+  .educational-tours span,
+  .adventure-tours span,
+  .pilgrimage span {
+    margin-right: 4px;
+    font-size: small;
+  }
+  .left-images,
+  .right-images {
+    height: 100%;
+    width: 18vw;
+  }
+  .educational-img,
+  .detailed-tour-img {
+    border: 2px solid grey;
+    width: 18.7vw;
+    margin-bottom: 15px;
+  }
+  .edu-img,
+  .detail-tour-img {
+    width: 17vw;
+    height: 9vh;
+    margin: 1px;
+  }
+  #all-group {
+    width: 100%;
+  }
+  .couple-box,
+  .family-tours-box,
+  .educational-tours-box {
+    border: 2px solid grey;
+    width: 28vw;
+    min-height: 28vh;
+  }
+  .hr {
+    margin: 0.5rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+  .box-heading {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+  }
+  .aside-content {
+    color: grey;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+  .imp-heading {
+    font-size: 1.1rem;
+  }
+  .table {
+    font-size: smaller;
+  }
+  .venture-info {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 40px 0px;
+    direction: ltr;
+  }
+  .venture-info .tour-img img {
+    width: 255px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 10px 10px 17px 4px grey;
+  }
+  .venture-info .tour-info {
+    width: 255px;
+    margin-left: 10px;
+  }
+  .venture-info .tour-info .btn {
+    position: relative;
+    top: 5%;
+  }
+  .dummy-img {
+    width: 80vw;
+    height: 80vh;
+  }
+  /* contact Us */
+  .address {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+  }
+  .email-field {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+  }
+  #field {
+    width: 40vw;
+    height: 10vh;
+  }
+  .map-venture {
+    width: 80vw;
+    height: 60vh;
+  }
+  .message {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    width: 100%;
+  }
+  #field-2 {
+    width: 82.5vw;
+    height: 20vh;
+    margin: 5vh 0;
+  }
+  .submit-btn #submit-button {
+    width: 30vw;
+  }
+  .footer-details {
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    height: 15vh;
+    font-size: smaller;
+  }
+  .himachal-img img {
+    width: 76vw;
+    height: 90vh;
+  }
+  .copyright {
+    margin: 0 10vw;
+    top: 0%;
+    position: relative;
+  }
+  .dev-details {
+    top: 0%;
+    position: relative;
+    margin: 0 10vw;
+    text-align: right;
+    color: grey;
+  }
+}
+@media only screen and (min-width: 326px) and (max-width: 600px) {
+  .my-container {
+    width: 100vw;
+    height: auto;
+    margin: 0px;
+    padding: 02vh 05vw;
+  }
+  .ventureLogo {
+    font-size: 1.5rem;
+    color: #4b4b97;
+    font-family: skope, serif;
+    font-weight: 800;
+  }
+  .ventureLogoDesc {
+    font-style: italic;
+    color: crimson;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ul {
+    font-size: 0.8rem;
+    width: 100vw;
+  }
+  .venture-slogan {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .imp-pack-top {
+    grid-template-columns: 30% 70%;
+  }
+  .box,
+  .box-2 {
+    width: 32vw;
+    height: 5rem;
+    border-radius: 15px 40px;
+  }
+  .font-size-small {
+    font-size: small;
+  }
+  .group-table {
+    width: 100%;
+    height: 15rem;
+  }
+  .edu-container,
+  .details-container {
+    display: grid;
+    grid-template-columns: 18vw 60vw 18vw;
+    place-items: center;
+    padding: 7vh 2vw;
+  }
+  .details-container {
+    place-items: stretch;
+  }
+  .edu-heading {
+    font-size: medium;
+  }
+  .venture-description {
+    font-size: small;
+    margin-top: 15px;
+  }
+  .table {
+    font-size: smaller;
+  }
+  .edu-table {
+    font-size: 0.4rem !important;
+  }
+  .td-padding {
+    padding: 3px;
+  }
+  .ban-img {
+    width: 80vw;
+    margin: 0 5vw;
+    height: 25vh;
+    margin-bottom: 2.5vh;
+  }
+  .edu-tables {
+    margin: 0px 0.4rem;
+    width: 57vw;
+    font-size: 0.6rem;
+  }
+  .edu-sect {
+    margin: 25px 10px;
+    font-size: smaller;
+  }
+  .table-responsive {
+    max-width: 55vw;
+    font-size: 0.5rem;
+  }
+  .aside-tables {
+    width: 39vw;
+    margin-left: 1.5vw;
+  }
+  .educational-tours,
+  .adventure-tours,
+  .pilgrimage {
+    min-height: 35vh;
+    width: 37.5vw;
+    border: 2px solid grey;
+    margin: 0 5px 3vh;
+    padding: 0 10px;
+  }
+  .aside-content-heading {
+    font-size: medium;
+  }
+  .educational-tours span,
+  .adventure-tours span,
+  .pilgrimage span {
+    margin-right: 4px;
+    font-size: small;
+  }
+  .left-images,
+  .right-images {
+    height: 100%;
+    width: 18vw;
+  }
+  .educational-img,
+  .detailed-tour-img {
+    border: 2px solid grey;
+    width: 18.7vw;
+    margin-bottom: 15px;
+  }
+  .edu-img,
+  .detail-tour-img {
+    width: 17vw;
+    height: 9vh;
+    margin: 1px;
+  }
+  #all-group {
+    width: 100%;
+  }
+  .couple-box,
+  .family-tours-box,
+  .educational-tours-box {
+    border: 2px solid grey;
+    width: 28vw;
+    min-height: 28vh;
+  }
+  .hr {
+    margin: 0.5rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+  .box-heading {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 0.7rem;
+  }
+  .aside-content {
+    color: grey;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+  .imp-heading {
+    font-size: 1.1rem;
+  }
+  .venture-info {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 40px 0px;
+    direction: ltr;
+  }
+  .tour-img {
+    width: 300px;
+    margin-right: 0px;
+  }
+  .venture-info .tour-img img {
+    width: 300px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 10px 10px 17px 4px grey;
+    margin-right: 0px;
+  }
+  .himachal-img img {
+    width: 76vw;
+    height: 90vh;
+  }
+  .venture-info .tour-info {
+    width: 320px;
+    margin-left: 10px;
+  }
+  .venture-info .tour-info .btn {
+    position: relative;
+    top: 5%;
+  }
+  .dummy-img {
+    width: 80vw;
+    height: 80vh;
+  }
+  /* contact Us */
+  .address {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+  }
+  .email-field {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+  }
+  #field {
+    width: 40vw;
+    height: 10vh;
+  }
+  .map-venture {
+    width: 80vw;
+    height: 60vh;
+  }
+  .message {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    width: 100%;
+  }
+  #field-2 {
+    width: 82.5vw;
+    height: 20vh;
+    margin: 5vh 0;
+  }
+  .submit-btn #submit-button {
+    width: 30vw;
+  }
+  .footer-details {
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    height: 15vh;
+  }
+  .copyright {
+    margin: 0 10vw;
+    top: 0%;
+    position: relative;
+  }
+  .dev-details {
+    top: 0%;
+    position: relative;
+    margin: 0 10vw;
+    text-align: right;
+    color: grey;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1048px) {
+  .my-container {
+    width: 95vw !important;
+    height: auto;
+    margin: 0px 2.5vw;
+    padding: 07vh 05vw;
+  }
+  .edu-container,
+  .details-container {
+    display: grid;
+    grid-template-columns: 18vw 53vw 18vw;
+    place-items: center;
+    padding: 7vh 2vw;
+  }
+  .details-container {
+    place-items: center;
+  }
+  .edu-heading {
+    font-size: medium;
+  }
+  .venture-description {
+    font-size: larger;
+    margin-top: 15px;
+  }
+  .imp-pack-top {
+    grid-template-columns: 30% 70%;
+  }
+  .table {
+    font-size: smaller;
+  }
+  .edu-table {
+    font-size: 1rem !important;
+  }
+  .td-padding {
+    padding: 3px;
+  }
+  .ban-img {
+    width: 75vw;
+    margin: 0 5vw;
+    height: 40vh;
+    margin-bottom: 2.5vh;
+  }
+  .group-table {
+    width: 100%;
+    height: 15rem;
+  }
+  .imp-packs {
+    width: 55vw;
+    margin-right: 1.5vw;
+  }
+  .edu-tables {
+    margin: 0px 0.4rem;
+    width: 50vw;
+    font-size: 0.6rem;
+  }
+  .edu-sect {
+    margin: 25px 10px;
+    font-size: smaller;
+  }
+  .table-responsive {
+    max-width: 55vw;
+    font-size: 1rem;
+  }
+  .aside-tables {
+    width: 29vw;
+    margin-left: 1.5vw;
+  }
+  .educational-tours,
+  .adventure-tours,
+  .pilgrimage {
+    min-height: 20vh;
+    width: 25.5vw;
+    border: 2px solid grey;
+    margin: 0 5px 3vh;
+    padding: 0 10px;
+  }
+  .aside-content-heading {
+    font-size: x-large;
+  }
+  .educational-tours span,
+  .adventure-tours span,
+  .pilgrimage span {
+    margin-right: 4px;
+    font-size: small;
+  }
+  .left-images,
+  .right-images {
+    height: 100%;
+    width: 18vw;
+  }
+  .educational-img,
+  .detailed-tour-img {
+    border: 2px solid grey;
+    width: 17.7vw;
+    margin-bottom: 15px;
+  }
+  .edu-img,
+  .detail-tour-img {
+    width: 17vw;
+    height: 9vh;
+    margin: 1px;
+  }
+  #all-group {
+    width: 100%;
+  }
+  .couple-box,
+  .family-tours-box,
+  .educational-tours-box {
+    border: 2px solid grey;
+    width: 25vw;
+    min-height: 45vh;
+    margin: 20px 10px;
+  }
+  .hr {
+    margin: 0.5rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+  }
+  .box-heading {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 1rem;
+  }
+  .aside-content {
+    color: grey;
+    text-decoration: none;
+    font-size: large;
+  }
+  .imp-heading {
+    font-size: 2.1rem;
+  }
+  .navbar {
+    font-size: x-large;
+  }
+  .venture-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 40px 0px;
+    direction: ltr;
+  }
+  .venture-info .tour-img {
+    padding: 5vh 2vw;
+  }
+  .venture-info .tour-img img {
+    width: 320px;
+    height: 220px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 10px 10px 17px 4px grey;
+  }
+  .venture-info .tour-img {
+    width: 320px;
+    height: 220px;
+  }
+  .dummy-img {
+    width: 80vw;
+    height: 80vh;
+  }
+  .venture-info .tour-info {
+    width: 320px;
+    margin-left: 10px;
+  }
+  .venture-info .tour-info .btn {
+    position: relative;
+    top: 5%;
+  }
+  /* contact Us */
+  .address {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+  }
+  .address-info {
+    /* height: 40vh; */
+    padding: 10vh 0;
+  }
+  .address-location {
+    height: auto;
+  }
+  .email-field {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    width: 80vw;
+  }
+  #field {
+    width: 40vw;
+    height: 7vh;
+    margin: 0 1vw;
+  }
+  .map-venture {
+    width: 40vw;
+    height: 40vh;
+  }
+  .message {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    width: 81vw;
+    margin: 0;
+  }
+  #field-2 {
+    width: 100%;
+    height: 15vh;
+  }
+  .submit-btn #submit-button {
+    width: 30vw;
+  }
+}
