@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Adventure(){
     return <>
     <header>
@@ -10,7 +12,7 @@ export default function Adventure(){
                     <div className="site-navigations">
                         <ul className="ul">
                             <li className="ul-background">
-                                <a className="nav-link darkblue-color" aria-current="page" href="/">Home</a>
+                                <Link className="nav-link darkblue-color" aria-current="page" href="/">Home</Link>
                             </li>
                             <li className="ul-background">
                                 <a className="nav-link darkblue-color" href="/tours/">Tours</a>
@@ -604,7 +606,7 @@ along with 1 litre Water bottle per person)
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
         </div>
         
     </>

@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Script from 'next/script'
-import styles from '../styles/Home.module.css'
-import Document from 'next/document'
 import "bootstrap/dist/css/bootstrap.min.css"
+import Link from "next/link"
 import {useEffect} from "react"
 export default function Home() {
   useEffect(() => {
@@ -195,8 +192,8 @@ export default function Home() {
                       PALAMPUR / PRAGPUR / CHANDIGARH (U.T) / AMRITSAR (PB)
                     </td>
                     <td className="font-weight">Rs.17,750/- per person</td>
-                    <td><a href="/himachal">Click for more
-                      details</a></td>
+                    <td><Link href="/himachal">Click for more
+                      details</Link></td>
                     </tr>
                   <tr>
                     <td>
@@ -220,11 +217,11 @@ export default function Home() {
                 <p className="box-heading">Educational Tours</p>
               </div>
             </a>
-            <a style={{"textDecoration": "none"}} href="/adventure">
+            <Link style={{"textDecoration": "none"}} href="/adventure">
               <div className="box-2 box-bg-darkgreen">
                 <p className="box-heading">Adventure Camp</p>
               </div>
-            </a>
+            </Link>
             <a style={{"textDecoration": "none"}} href="{% url 'tour_details' 'pilgrimage' %}">
               <div className="box-2 box-bg-red-orange">
                 <p className="box-heading">Pilgrimage</p>

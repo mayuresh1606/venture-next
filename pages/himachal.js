@@ -1,12 +1,13 @@
 import Head from "next/head"
+import Link from "next/link"
 export default function Himachal(){
     return <>
 <Head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" />
     
     <link rel="stylesheet" href="/tours/static/tours/index.css" />
     
@@ -24,7 +25,7 @@ export default function Himachal(){
                     <div className="site-navigations">
                         <ul className="ul">
                             <li className="ul-background">
-                                <a className="nav-link darkblue-color" aria-current="page" href="/">Home</a>
+                                <Link className="nav-link darkblue-color" aria-current="page" href="/">Home</Link>
                             </li>
                             <li className="ul-background">
                                 <a className="nav-link darkblue-color" href="/tours/">Tours</a>
@@ -971,7 +972,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-2">
@@ -1597,7 +1598,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-3">
@@ -2214,7 +2215,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-4">
@@ -2851,7 +2852,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-5">
@@ -3479,7 +3480,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-6">
@@ -4138,7 +4139,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-7">
@@ -4786,7 +4787,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-8">
@@ -5461,7 +5462,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-9">
@@ -6140,7 +6141,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-10">
@@ -6721,7 +6722,7 @@ export default function Himachal(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
         </div>

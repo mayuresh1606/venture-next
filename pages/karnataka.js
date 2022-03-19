@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css"
+import Link from "next/link"
 export default function Karnataka(){
     return <>
         <header>
@@ -11,7 +12,7 @@ export default function Karnataka(){
                     <div className="site-navigations">
                         <ul className="ul">
                             <li className="ul-background">
-                                <a className="nav-link darkblue-color" aria-current="page" href="/">Home</a>
+                                <Link className="nav-link darkblue-color" aria-current="page" href="/">Home</Link>
                             </li>
                             <li className="ul-background">
                                 <a className="nav-link darkblue-color" href="/tours/">Tours</a>
@@ -943,7 +944,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-2">
@@ -1579,7 +1580,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-3">
@@ -2206,7 +2207,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-4">
@@ -2853,7 +2854,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-5">
@@ -3500,7 +3501,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-6">
@@ -4158,7 +4159,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-7">
@@ -4818,7 +4819,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-8">
@@ -5478,7 +5479,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-10">
@@ -6091,7 +6092,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-11">
@@ -6711,7 +6712,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
             <section id="tour-12">
@@ -7359,7 +7360,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
             
         </div>
