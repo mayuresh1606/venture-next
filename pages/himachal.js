@@ -438,7 +438,7 @@ export default function Himachal(){
                             Day 4
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world&amp;#39;s longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and stay at hotel in Manali.
+                            Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world's longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and stay at hotel in Manali.
                         </td>
                     </tr>
                     <tr>
@@ -1049,7 +1049,7 @@ export default function Himachal(){
                             Day 4
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world&amp;#39;s longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and  stay at hotel in Manali.
+                            Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world's longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and  stay at hotel in Manali.
                         </td>
                     </tr>
                     <tr>
@@ -2292,7 +2292,7 @@ export default function Himachal(){
                             Day 4
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world&amp;#39;s longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and stay at hotel in Manali.
+                            Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world's longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and stay at hotel in Manali.
                         </td>
                     </tr>
                     <tr>
@@ -4924,7 +4924,7 @@ export default function Himachal(){
                                 Day 10
                             </td>
                             <td>
-                                Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world&amp;#39;s longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and stay at hotel in Manali.
+                                Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world's longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and stay at hotel in Manali.
                             </td>
                         </tr>
                     
@@ -5539,7 +5539,7 @@ export default function Himachal(){
                             Day 4
                         </td>
                         <td>
-                            Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world&amp;#39;s longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and stay at hotel in Manali.
+                            Morning after breakfast tea / coffee enjoy Atal tunnel the delightful world's longest tunnel on high altitude and Sissu Waterfall. (However please note sometimes this tunnel is not operational due to unfavourable weather conditions and traffic jams). Afternoon visit Solang Valley lunch on the thrilling valley (dry lunch or local snacks available). There are several adventure activities like Paragliding, Mountain Biking, sliding, trekking etc. organised by locals. The guests can enjoy them at their own expenses (for information some of the activities can be a bit risky take utmost care while doing these activities). Evening snacks tea / coffee at Mall Road. Night dinner and stay at hotel in Manali.
                         </td>
                     </tr>
                     <tr>
