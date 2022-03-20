@@ -148,8 +148,8 @@ export default function Home() {
             </div></a>
           </div>
           <div className="right-box">
-            <table className="table table-bordered group-table border-secondary">
-              <thead className='thead-dark'>
+            <table className="table table-bordered border-secondary group-table">
+              <thead>
                 <th colSpan={2}>
                   <center className="darkblue-color font-weight"><a href="#tours-tables" className="darkblue-color tour-links">GROUP</a></center>
                 </th>

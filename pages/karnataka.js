@@ -35,7 +35,7 @@ export default function Karnataka(){
             <center>
                 <h1>Majestic Karnataka</h1>
             </center>
-            <p className="font-weight">VENTURE WORLD&quot;S packages: <span className="green-color"><span
+            <p className="font-weight font-size-smaller">VENTURE WORLD&quot;S packages: <span className="green-color"><span
                         style={{"textDecoration": "underline"}}>PACKAGE 1 -</span> LUXURY TOUR</span><br />
                 <span style={{"color": "transparent"}}>VENTURE WORLD&quot;S packages: </span><span className="brown-color"><span
                         style={{"textDecoration": "underline"}}>PACKAGE 2 -</span> BUDGET TOUR</span>

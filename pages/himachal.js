@@ -48,7 +48,7 @@ export default function Himachal(){
             <center>
                 <h1>Fabulous Himachal</h1>
             </center>
-            <p className="font-weight">VENTURE WORLD’S packages: <span className="green-color"><span
+            <p className="font-weight font-size-smaller">VENTURE WORLD’S packages: <span className="green-color"><span
                         style={{"textDecoration": "underline"}}>PACKAGE 1 -</span> LUXURY TOUR</span><br />
                 <span style={{"color": "transparent"}}>VENTURE WORLD’S packages: </span><span className="brown-color"><span
                         style={{"textDecoration": "underline"}}>PACKAGE 2 -</span> BUDGET TOUR</span>
