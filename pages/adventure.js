@@ -11,7 +11,7 @@ export default function Adventure(){
                     </div>
                     <div className="site-navigations">
                         <ul className="ul">
-                            <li className="ul-background">
+                            <li className="ul-background nav-link darkblue-color">
                                 <Link className="nav-link darkblue-color" aria-current="page" href="/">Home</Link>
                             </li>
                             <li className="ul-background">
@@ -128,7 +128,7 @@ export default function Adventure(){
             <table className="table table-bordered border-secondary text-center">
                 <tbody>
                     <tr>
-                        <td rowSpan={2}>No. of Days</td>
+                        <td>No. of Days</td>
                         <td colSpan={3} style={{padding:0}}>
                             <table className="table-bordered boder-secondary adventure-table">
                                 <tbody>

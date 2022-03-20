@@ -12,7 +12,7 @@ export default function Karnataka(){
                     <div className="site-navigations">
                         <ul className="ul">
                             <li className="ul-background">
-                                <Link className="nav-link darkblue-color" aria-current="page" href="/">Home</Link>
+                                <Link className="nav-link darkblue-color" href="/">Home</Link>
                             </li>
                             <li className="ul-background">
                                 <a className="nav-link darkblue-color" href="/tours/">Tours</a>
