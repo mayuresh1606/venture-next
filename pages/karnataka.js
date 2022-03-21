@@ -339,7 +339,7 @@ export default function Karnataka(){
             </table>
             
             <section id="tour-1">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 1</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 1</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -948,7 +948,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-2">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 2</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 2</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -1584,7 +1584,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-3">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 3</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 3</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -2211,7 +2211,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-4">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 4</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 4</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -2858,7 +2858,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-5">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 5</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 5</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -3505,7 +3505,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-6">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 6</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 6</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -4163,7 +4163,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-7">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 7</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 7</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -4823,7 +4823,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-8">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 8</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 8</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -5483,7 +5483,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-10">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 10</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 10</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -6096,7 +6096,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-11">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 11</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 11</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -6716,7 +6716,7 @@ export default function Karnataka(){
             </section>
             
             <section id="tour-12">
-                <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 12</h4>
+                <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 12</h4>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
