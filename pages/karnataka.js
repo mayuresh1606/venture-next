@@ -6165,7 +6165,7 @@ export default function Karnataka(){
                     journey. <br />
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
-                    Cheque / Demand draft should be in favour of "VENTURE WORLD"</p>
+                    Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
             </section>
 
             
