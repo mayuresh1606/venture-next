@@ -11,8 +11,8 @@ export default function Adventure(){
                     </div>
                     <div className="site-navigations">
                         <ul className="ul">
-                            <li className="ul-background nav-link darkblue-color">
-                                <Link className="nav-link darkblue-color" aria-current="page" href="/">Home</Link>
+                            <li className="ul-background">
+                                <Link className="nav-link darkblue-color" href="/">Home</Link>
                             </li>
                             <li className="ul-background">
                                 <a className="nav-link darkblue-color" href="/tours/">Tours</a>
@@ -39,7 +39,7 @@ export default function Adventure(){
                     <tr className="text-center font-weight">
                         <td width={"33.33%"}>TREKKING</td>
                         <td width={"33.33%"}>CAMPING</td>
-                        <td width={"33.33%"}>SKIING</td>
+                        <td width={"33.33%"}><a className="new-content" href="#skiing">SKIING</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -259,7 +259,7 @@ export default function Adventure(){
                 </tbody>
             </table>
             <br />
-            <center><h3 className="skiing">SKIING CAMP</h3></center>
+            <center><h3 className="skiing" id="skiing">SKIING CAMP</h3></center>
             <p className="font-weight">VENTURE WORLD organizes skiing training camps by expert and professional
             instructors in Manali during the months of January, February and March. The
             duration of the camp is 2 days to 15 days. The camp is conducted for basic as

@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Link from "next/link"
+import { useEffect } from "react/"
 export default function Himachal(){
     return <>
 <Head>
@@ -366,6 +367,8 @@ export default function Himachal(){
             
             <section id="tour-1">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 1</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/manali.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -400,6 +403,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -753,7 +757,7 @@ export default function Himachal(){
                         <td className="font-weight">Child between 5 - 11yrs. - 30% discount</td>
                     </tr>
                     <tr>
-                        <td colSpan={"3"} width="50%" className="font-weight" style={{"padding": "0%"}}>
+                        <td colSpan={3} width="50%" className="font-weight" style={{"padding": "0%"}}>
                             <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
                                     <td>20% discount for third person sharing same room</td>
@@ -763,12 +767,12 @@ export default function Himachal(){
                         </td>
                     </tr>
                     <tr>
-                        <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                        <td colSpan={3} className="font-weight">
+                            <center> Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center><br />
+                            <p style={{display: "flex", justifyContent: "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -973,44 +977,48 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-2">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 2</h4>
-                <table className="table table-striped grey-bg-table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Package</th>
-                            <th scope="col">Destination</th>
-                            <th scope="col">Duration</th>
-                        </tr>
-                    </thead>
-                    <tbody className="font-weight-light">
-                        <tr className="blue-color">
-                            <td>COMFORT</td>
-                            <td>
-                                MANALI with MANIKARAN (4N) - CHANDIGARH *U.T(2N)
-                            </td>
-                            
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/manikaran.jpg" alt="err"/>
+                    <table className="table table-striped grey-bg-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Package</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Duration</th>
+                            </tr>
+                        </thead>
+                        <tbody className="font-weight-light">
+                            <tr className="blue-color">
+                                <td>COMFORT</td>
                                 <td>
-                                    7 Days / 6 Nights <br />
+                                    MANALI with MANIKARAN (4N) - CHANDIGARH *U.T(2N)
                                 </td>
-                            
-                        </tr>
-                        
-                        <tr className="red-color">
-                            <td>COMPACT</td>
-                            <td>
-                                MANALI with MANIKARAN (3N) - CHANDIGARH(1N) –  Night journey Chandigarh to Manali (1N)
-                            </td>
-                            <td>
-                                6 Days / 5 Nights <br />
                                 
-                            </td>
-                        </tr>
-                        
-                    </tbody>
-                </table>
+                                    <td>
+                                        7 Days / 6 Nights <br />
+                                    </td>
+                                
+                            </tr>
+                            
+                            <tr className="red-color">
+                                <td>COMPACT</td>
+                                <td>
+                                    MANALI with MANIKARAN (3N) - CHANDIGARH(1N) –  Night journey Chandigarh to Manali (1N)
+                                </td>
+                                <td>
+                                    6 Days / 5 Nights <br />
+                                    
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -1390,11 +1398,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -1599,10 +1607,13 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-3">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 3</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/shimla.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -1637,6 +1648,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -2007,11 +2019,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -2216,10 +2228,13 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-4">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 4</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/manali.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -2254,6 +2269,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -2642,11 +2658,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -2853,10 +2869,13 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-5">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 5</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/dalhousie.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -2891,6 +2910,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -3270,11 +3290,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -3481,10 +3501,13 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-6">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 6</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/palampur-dharamshala.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -3519,6 +3542,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -3925,11 +3949,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -4140,10 +4164,13 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-7">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 7</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/amritsar.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -4178,6 +4205,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -4575,11 +4603,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -4788,10 +4816,13 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-8">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 8</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/chandigarh.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -4826,6 +4857,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -5250,11 +5282,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -5463,10 +5495,13 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-9">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 9</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/pragpur.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -5501,6 +5536,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -5925,11 +5961,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -6142,10 +6178,13 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-10">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 10</h4>
+                <div className="tour-img-info">
+                    <img className="side-img" src="/images/himachal/manali-trek.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -6185,6 +6224,7 @@ export default function Himachal(){
                         
                     </tbody>
                 </table>
+                </div>
                 <br />
                 <center>
                     <p className="font-weight"><span style={{"textDecoration": "underline"}}> TOUR ITINERARY </span>– (The itinerary is
@@ -6514,11 +6554,11 @@ export default function Himachal(){
                     </tr>
                     <tr>
                         <td colSpan={"3"} className="font-weight">
-                            Guests booking their own air tickets and guests travelling by railway or other mode of transport. <br />
-                            <p style={{"display": "flex", "justifyContent": "spaceBetween"}}>
+                            <center>Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center> <br />
+                            <p style={{"display": "flex", "justifyContent": "space-between"}}>
                                 <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60%</span>
-                                <span> discount Child between 5 - 11yrs. - 30% discount</span>
+                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
                     </tr>
@@ -6723,6 +6763,7 @@ export default function Himachal(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
         </div>

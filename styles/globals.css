@@ -202,6 +202,10 @@ header {
   height: 130px;
   margin: 15px;
 }
+.tour-img-info {
+  display: grid;
+  grid-template-columns: 22% 76%;
+}
 #all-group {
   width: 95%;
 }
@@ -238,7 +242,7 @@ header {
 }
 [data-component='slideshow'] .slide.active {
   display: block;
-  width: 70vw;
+  height: 100%;
 }
 .banner-img {
   width: 70vw;
@@ -249,6 +253,15 @@ header {
   margin: 0 5vw;
   height: 50vh;
   margin-bottom: 2.5vh;
+}
+.side-img {
+  width: 14vw;
+  height: 91%;
+  margin-right: 0.5rem;
+  margin-bottom: 1.1vh;
+}
+.height100 {
+  height: 91.5%;
 }
 .display-img {
   display: grid;
@@ -386,6 +399,9 @@ header {
   display: grid;
   place-content: center;
   margin-bottom: 10px;
+}
+.box-2:hover {
+  cursor: pointer;
 }
 .font-weight-light {
   font-weight: 600;
@@ -690,6 +706,16 @@ footer {
     font-size: small;
     margin-top: 15px;
   }
+  .tour-img-info {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .side-img {
+    width: 70vw;
+    height: 20vh;
+    margin: auto;
+    margin-bottom: 1.1vh;
+  }
   .table {
     font-size: smaller;
   }
@@ -928,6 +954,16 @@ footer {
   }
   .details-container {
     place-items: stretch;
+  }
+  .tour-img-info {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .side-img {
+    width: 70vw;
+    height: 20vh;
+    margin: auto;
+    margin-bottom: 1.1vh;
   }
   .edu-heading {
     font-size: medium;
@@ -1294,6 +1330,16 @@ footer {
   .venture-info .tour-info .btn {
     position: relative;
     top: 5%;
+  }
+  .tour-img-info {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .side-img {
+    width: 70vw;
+    height: 20vh;
+    margin: auto;
+    margin-bottom: 1.1vh;
   }
   /* contact Us */
   .address {
