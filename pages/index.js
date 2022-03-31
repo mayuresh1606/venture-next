@@ -197,21 +197,21 @@ export default function Home() {
             
           </div>
           <div className="aside-tables">
-            <a style={{"textDecoration": "none"}} href="/educational">
+            <Link style={{"textDecoration": "none"}} href="/educational">
               <div className="box-2">
                 <p className="box-heading">Educational Tours</p>
               </div>
-            </a>
+            </Link>
             <Link style={{"textDecoration": "none"}} href="/adventure">
               <div className="box-2 box-bg-darkgreen">
                 <p className="box-heading">Adventure Camp</p>
               </div>
             </Link>
-            <a style={{"textDecoration": "none"}} href="/pilgrimage">
+            <Link style={{"textDecoration": "none"}} href="/pilgrimage">
               <div className="box-2 box-bg-red-orange">
                 <p className="box-heading">Pilgrimage</p>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
         <hr />

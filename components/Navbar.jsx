@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Navbar() {
     return <header>
       <nav className="navbar">
@@ -9,7 +10,7 @@ export default function Navbar() {
           <div className="site-navigations">
             <ul className="ul">
               <li className="ul-background">
-                <a className="nav-link darkblue-color" aria-current="page" href="/">Home</a>
+                <Link className="nav-link darkblue-color" aria-current="page" href="/">Home</Link>
               </li>
               <li className="ul-background">
                 <a className="nav-link darkblue-color" href="/tours">Tours</a>
@@ -24,6 +25,7 @@ export default function Navbar() {
                 <a className="nav-link darkblue-color" href="/terms">Terms</a>
               </li>
             </ul>
+
           </div>
         </div>
       </nav>

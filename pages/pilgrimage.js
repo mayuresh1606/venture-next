@@ -284,7 +284,7 @@ for (let i of range(1, 52)){
     shaktiPeeth.push(shaktiVar.slice(startIndex, endIndex));
 }
 console.log(shaktiPeeth)
-export default function() {
+export default function Pilgrimage() {
     useEffect(() => {
             // adding limit to package names inside individual package
         let currentYearDOM = document.querySelector(".current-year")
