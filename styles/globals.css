@@ -251,6 +251,7 @@ header {
 .ban-img {
   width: 60vw;
   margin: 0 5vw;
+  object-fit: contain;
   height: 50vh;
   margin-bottom: 2.5vh;
 }
@@ -728,6 +729,7 @@ footer {
   .ban-img {
     width: 80vw !important;
     margin: 0 5vw;
+    object-fit: contain;
     height: 25vh !important;
     margin-bottom: 2.5vh;
   }

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Link from "next/link"
 import {useEffect} from "react"
+import Navbar from '../components/Navbar'
 export default function Home() {
   useEffect(() => {
             // adding limit to package names inside individual package
@@ -89,35 +90,7 @@ export default function Home() {
     <title>Venture World</title>
   </Head>
   {/* <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p'></Script> */}
-    <header>
-      <nav className="navbar">
-        <div className="nav-contents">
-          <div style={{"textAlign":"center"}} className="site-logo">
-            <h1 className="venture-logo">VENTURE WORLD</h1>
-            <h6 className="venture-logo-desc">Tour, Trek, Picnic, Pilgrimage</h6>
-          </div>
-          <div className="site-navigations">
-            <ul className="ul">
-              <li className="ul-background">
-                <a className="nav-link darkblue-color" aria-current="page" href="{% url 'index' %}">Home</a>
-              </li>
-              <li className="ul-background">
-                <a className="nav-link darkblue-color" href="{% url 'tours' %}">Tours</a>
-              </li>
-              <li className="ul-background">
-                <a className="nav-link darkblue-color" href="{% url 'services' %}">Services</a>
-              </li>
-              <li className="ul-background">
-                <a className="nav-link darkblue-color" href="{% url 'contact-us' %}">Contact Us</a>
-              </li>
-              <li className="ul-background">
-                <a className="nav-link darkblue-color" href="{% url 'terms' %}">Terms</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <Navbar />
     <div className="my-container">
         <center><h5 className="venture-slogan">VENTURE WORLDS GLORIOUS 25 YEARS OF TOURING EXPERINCE</h5></center>
         
@@ -125,13 +98,25 @@ export default function Home() {
         <div id="slideshow-example" data-component="slideshow">
           <div role="list">
             <div className="slide banner-img">
-              <img className="ban-img" src="/1banner.jpg" alt="err"/>
+              <img className="ban-img" src="/images/main6.jpg" alt="err"/>
             </div>
             <div className="slide banner-img">
-              <img className="ban-img" src="/3banner.jpg" alt="err"/>
+              <img className="ban-img" src="/images/main4.jpg" alt="err"/>
             </div>
             <div className="slide banner-img">
-              <img className="ban-img" src="/7banner.jpg" alt="err"/>
+              <img className="ban-img" src="/images/main5.jpg" alt="err"/>
+            </div>
+            <div className="slide banner-img">
+              <img className="ban-img" src="/images/main7.jpg" alt="err"/>
+            </div>
+            <div className="slide banner-img">
+              <img className="ban-img" src="/images/main.jpeg" alt="err"/>
+            </div>
+            <div className="slide banner-img">
+              <img className="ban-img" src="/images/main2.jpg" alt="err"/>
+            </div>
+            <div className="slide banner-img">
+              <img className="ban-img" src="/images/main3.jpeg" alt="err"/>
             </div>
           </div>
         </div>
@@ -212,7 +197,7 @@ export default function Home() {
             
           </div>
           <div className="aside-tables">
-            <a style={{"textDecoration": "none"}} href="{% url 'educational_tours' %}">
+            <a style={{"textDecoration": "none"}} href="/educational">
               <div className="box-2">
                 <p className="box-heading">Educational Tours</p>
               </div>
@@ -222,7 +207,7 @@ export default function Home() {
                 <p className="box-heading">Adventure Camp</p>
               </div>
             </Link>
-            <a style={{"textDecoration": "none"}} href="{% url 'tour_details' 'pilgrimage' %}">
+            <a style={{"textDecoration": "none"}} href="/pilgrimage">
               <div className="box-2 box-bg-red-orange">
                 <p className="box-heading">Pilgrimage</p>
               </div>
