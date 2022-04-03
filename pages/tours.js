@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar"
+import Link from "next/link"
 export default function Tours(){
     return <>
         <Navbar />
@@ -19,7 +20,7 @@ export default function Tours(){
                         <p>This is popularly renowned for its Himalayan landscapes and popular hill-stations. Many outdoor activities such as rock climbing, mountain biking, paragliding, ice-skating, trekking, rafting, and heli-skiing are popular tourist attractions in Himachal Pradesh.</p>
                         <span className="match-width package-name">MANALI, CHANDIGARH, MANIKARAN, SHIMLA, DHARAMSHALA, DALHOUSIE, PRAGPUR, PALAMPUR, AMRITSAR</span>
                         <br/>
-                        <button className="btn btn-info"><a href="/himachal">Click to know more</a></button>
+                        <button className="btn btn-info"><Link href="/himachal">Click to know more</Link></button>
                     </div>
                 </div>
                 <br />
@@ -35,7 +36,7 @@ export default function Tours(){
                         <p>Located in the midst of Western Ghats, Deccan Plateau and Kannad Coast, Karnataka is home to various forests, beaches, waterfalls, coffee plantations, lakes and all the bounties of nature. The state also boasts of historically significant monuments and structures that attract visitors from far and beyond.</p>
                         <span className="match-width package-name">BENGALURU, MYSURU, OOTY, HASSAN, COORG, MANGULURU, CHIKMAGALUR, UDUPI, GOA</span>
                         <br/>
-                        <button className="btn btn-info"><a href="/karnataka">Click to know more</a></button>
+                        <button className="btn btn-info"><Link href="/karnataka">Click to know more</Link></button>
                     </div>
                 </div>
                 <br />

@@ -13,16 +13,16 @@ export default function Navbar() {
                 <Link className="nav-link darkblue-color" aria-current="page" href="/">Home</Link>
               </li>
               <li className="ul-background">
-                <a className="nav-link darkblue-color" href="/tours">Tours</a>
+                <Link className="nav-link darkblue-color" href="/tours">Tours</Link>
               </li>
               <li className="ul-background">
-                <a className="nav-link darkblue-color" href="/services">Services</a>
+                <Link className="nav-link darkblue-color" href="/services">Services</Link>
               </li>
               <li className="ul-background">
-                <a className="nav-link darkblue-color" href="/contactUs">Contact Us</a>
+                <Link className="nav-link darkblue-color" href="/contactUs">Contact Us</Link>
               </li>
               <li className="ul-background">
-                <a className="nav-link darkblue-color" href="/terms">Terms</a>
+                <Link className="nav-link darkblue-color" href="/terms">Terms</Link>
               </li>
             </ul>
 
