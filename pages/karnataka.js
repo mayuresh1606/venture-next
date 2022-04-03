@@ -949,6 +949,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-2">
@@ -1588,6 +1589,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-3">
@@ -2218,6 +2220,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-4">
@@ -2868,6 +2871,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-5">
@@ -3518,6 +3522,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-6">
@@ -4179,6 +4184,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-7">
@@ -4842,6 +4848,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-8">
@@ -5505,6 +5512,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
 
             <section id="tour-9">
@@ -6139,6 +6147,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
 
             
@@ -6756,6 +6765,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-11">
@@ -7379,6 +7389,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
             <section id="tour-12">
@@ -8030,6 +8041,7 @@ export default function Karnataka(){
                     Mode of Payment
                     Cheque / Demand Draft / NEFT / RTGS / IMPS / UPI. <br />
                     Cheque / Demand draft should be in favour of &quot;VENTURE WORLD&quot;</p>
+                    <hr /><br />
             </section>
             
         </div>

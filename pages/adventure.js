@@ -7,7 +7,6 @@ export default function Adventure(){
             // adding limit to package names inside individual package
         let currentYearDOM = document.querySelector(".current-year")
         let tourInfo = document.body.querySelectorAll('.tour-info')
-        let packageName = document.body.querySelectorAll('.package-name')
         for(let i=0;i < tourInfo.length;i++){
             tour = tourInfo[i]
             pack = tour.querySelectorAll('.package-name')

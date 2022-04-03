@@ -309,7 +309,8 @@ header {
   color: black;
 }
 .inside-table {
-  min-width: 30vw;
+  /* min-width: 30vw; */
+  width: 100%;
 }
 .educational-tours,
 .adventure-tours,
@@ -513,6 +514,9 @@ figure img {
 .venture-info .tour-info .btn {
   position: relative;
   top: 25%;
+}
+.btn-info{
+  top: 10% !important;
 }
 .venture-info .tour-info a {
   padding: 5px 10px;
