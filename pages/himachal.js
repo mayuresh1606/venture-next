@@ -2207,7 +2207,7 @@ export default function Himachal(){
             <section id="tour-4">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 4</h4>
                 <div className="tour-img-info">
-                    <img className="side-img" src="/images/himachal/manali.jpg" alt="err"/>
+                    <img className="side-img" src="/images/main9.jpeg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -3480,7 +3480,7 @@ export default function Himachal(){
             <section id="tour-6">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 6</h4>
                 <div className="tour-img-info">
-                    <img className="side-img" src="/images/himachal/palampur-dharamshala.jpg" alt="err"/>
+                    <img className="side-img" src="/images/himachal/palampur-dharamshala.webp" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -6157,7 +6157,7 @@ export default function Himachal(){
             <section id="tour-10">
                 <h4 className="font-weight"><span className="lightblue-color"> Fabulous Himachal </span>- Tour 10</h4>
                 <div className="tour-img-info">
-                    <img className="side-img" src="/images/himachal/manali-trek.jpg" alt="err"/>
+                    <img className="side-img" src="/images/himachal/manali-trek.webp" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>

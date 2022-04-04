@@ -98,16 +98,13 @@ export default function Home() {
         <div id="slideshow-example" data-component="slideshow">
           <div role="list">
             <div className="slide banner-img">
-              <img className="ban-img" src="/images/main6.jpg" alt="err"/>
-            </div>
-            <div className="slide banner-img">
-              <img className="ban-img" src="/images/main4.jpg" alt="err"/>
-            </div>
-            <div className="slide banner-img">
               <img className="ban-img" src="/images/main5.jpg" alt="err"/>
             </div>
             <div className="slide banner-img">
               <img className="ban-img" src="/images/main7.jpg" alt="err"/>
+            </div>
+            <div className="slide banner-img">
+              <img className="ban-img" src="/images/main4.jpeg" alt="err"/>
             </div>
             <div className="slide banner-img">
               <img className="ban-img" src="/images/main.jpeg" alt="err"/>
@@ -117,6 +114,9 @@ export default function Home() {
             </div>
             <div className="slide banner-img">
               <img className="ban-img" src="/images/main3.jpeg" alt="err"/>
+            </div>
+            <div className="slide banner-img">
+              <img className="ban-img" src="/images/main9.jpeg" alt="err"/>
             </div>
           </div>
         </div>
@@ -220,7 +220,7 @@ export default function Home() {
           to
           places dreams are made of. We aim to provide you a complete holiday package.
         
-          Discover nature&quot;s hidden treasure with venture world in the high picturesque and majestic mountains, the snow covered
+          Discover nature&quot;s hidden treasure with Venture World in the high picturesque and majestic mountains, the snow covered
           glaciers, the golden deserts and the awe inspiring sand dunes, get a closer look at the flora and fauna in their
           natural
           environment and enjoy natures bounty. Relax and enjoy the water sports at the sun kissed beaches. Widen your horizons
