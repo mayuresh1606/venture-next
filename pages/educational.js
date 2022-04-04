@@ -861,19 +861,19 @@ export default function Education(){
                 <div id="slideshow-example" data-component="slideshow">
                     <div role="list">
                         <div className="slide banner-img">
-                        <img className="ban-img" src="/images/educational/education-1.jpeg" alt="err"/>
+                        <img className="ban-img" src="/images/educationalTours/education-1.jpeg" alt="err"/>
                         </div>
                         <div className="slide banner-img">
-                        <img className="ban-img" src="/images/educational/education-2.jpeg" alt="err"/>
+                        <img className="ban-img" src="/images/educationalTours/education-2.jpeg" alt="err"/>
                         </div>
                         <div className="slide banner-img">
-                        <img className="ban-img" src="/images/educational/education-3.jpeg" alt="err"/>
+                        <img className="ban-img" src="/images/educationalTours/education-3.jpeg" alt="err"/>
                         </div>
                         <div className="slide banner-img">
-                        <img className="ban-img" src="/images/educational/education-4.jpeg" alt="err"/>
+                        <img className="ban-img" src="/images/educationalTours/education-4.jpeg" alt="err"/>
                         </div>
                         <div className="slide banner-img">
-                        <img className="ban-img" src="/images/educational/education-5.jpeg" alt="err"/>
+                        <img className="ban-img" src="/images/educationalTours/education-5.jpeg" alt="err"/>
                         </div>
                     </div>
                 </div>
