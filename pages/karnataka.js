@@ -779,7 +779,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -2048,7 +2048,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -2697,7 +2697,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -2877,7 +2877,7 @@ export default function Karnataka(){
             <section id="tour-5">
                 <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 5</h4>
                 <div className="tour-img-info">
-                    <img className="side-img" src="/images/coorg.webp" alt="err"/>
+                    <img className="side-img" src="/images/karnataka/coorg.webp" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -3348,7 +3348,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -4008,7 +4008,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -4670,7 +4670,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             MYSURU – HOTEL THE PRESIDENT or its equivalent
@@ -5334,7 +5334,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> BANGALURU – HOTEL WEST FORT or its equivalent <br />
                             CHITRADURGA – HOTEL AMOGHA INTERNATIONAL or its equivalent
@@ -6589,7 +6589,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> CHIKMAGALUR – HOTEL ROBUSTAINN or its equivalent <br />
                             KALASA - HOTEL ASHIRWAD or its equivalent
@@ -7213,7 +7213,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> CHIKMAGALUR – HOTEL ROBUSTAINN or its equivalent <br />
                             KALASA - HOTEL ASHIRWAD or its equivalent
@@ -7864,7 +7864,7 @@ export default function Karnataka(){
                         <td>Venture World books air ticket but does not book rail tickets.</td>
                     </tr>
                     <tr>
-                        <td className="font-weight" style={{"display": "grid", "grid-template-columns": "max-content auto"}}> 
+                        <td className="font-weight" style={{"display": "grid", "gridTemplateColumns": "max-content auto"}}> 
                             <span> ACCOMODATION : </span>
                             <span> CHIKMAGALUR – HOTEL ROBUSTAINN or its equivalent <br />
                             KALASA - HOTEL ASHIRWAD or its equivalent
