@@ -1,7 +1,22 @@
 import "bootstrap/dist/css/bootstrap.min.css"
-import Link from "next/link"
+import { useEffect, useState } from "react"
 import Navbar from "../components/Navbar"
+import axios from "axios"
 export default function Karnataka(){
+    const [tours, setTours] = useState([]);
+
+    useEffect(async() => {
+        try{const {data} = await axios.get("/api/tours?tourName=Fabulous Himachal");
+        const {prices} = data;
+        if (prices){
+            console.log(prices)
+            setTours(prices);
+        }
+        }catch(err){
+            console.log(err.response)
+        }
+    }, [])
+    console.log(tours)
     return <>
         <Navbar />
         <div className="my-container font-size-small">
@@ -30,7 +45,9 @@ export default function Karnataka(){
                     </tr>
                 </thead>
                 <tbody className="font-weight-light">
-                    
+                    {tours.map((tour) => {
+                        if (tour.tourNumber === 1){
+                        return <>
                     <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
                             <a style={{"margin": "0"}} className="aside-content new-content" href="#tour-1"><p>Tour 1</p></a>
@@ -42,7 +59,7 @@ export default function Karnataka(){
                         <td width="15%">
                             <p>6 Days / 5 Nights</p>
                         </td>
-                        <td>26,250/-</td>
+                        <td>{tour.comfortPrice}</td>
                     </tr>
                     
                     <tr className="red-color">
@@ -58,7 +75,8 @@ export default function Karnataka(){
                         </td>
                         <td>16,750/-</td>
                     </tr>
-                    
+                    </>
+                    }})}
                     
                     <tr className="blue-color" style={{"height": "minContent"}}>
                         <td width="13%">
@@ -3528,7 +3546,7 @@ export default function Karnataka(){
             <section id="tour-6">
                 <h4 className="font-weight"><span className="lightblue-color"> Majestic Karnataka </span>- Tour 6</h4>
                 <div className="tour-img-info">
-                    <img className="side-img" src="/images/main4.jpeg" alt="err"/>
+                    <img className="side-img" src="/images/karnataka/mangalore.jpg" alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>

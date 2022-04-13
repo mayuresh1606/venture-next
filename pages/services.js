@@ -19,9 +19,8 @@ export default function Services(){
             <p className="contact-enquire">Contact us for Hotel booking / Enquiry.</p>
         </div>
         <div className="transportation">
-            <h3>Transportation – Air (Domestic & International) Rail (e-ticketing)</h3>
-            <p>Car rental a/c & non a/c (Indica, Indigo, Qualis, Sumo, Tavera, Innova etc.)
-            Bus hire a/c & non a/c (tempo traveller, mini bus, semi – luxury, luxury, volvo etc. Daily out station route bus) Cruise
+            <h3>Transportation – Air (Domestic & International)</h3>
+            <p>Bus hire a/c & non a/c (tempo traveller, mini bus, semi – luxury, luxury, volvo etc. Daily out station route bus) Cruise
             (River, Backwater, House boat, Package cruise domestic & international)</p>
         </div>
         <div className="package-tour">

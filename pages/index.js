@@ -1,10 +1,17 @@
 import Head from 'next/head'
 import "bootstrap/dist/css/bootstrap.min.css"
 import Link from "next/link"
-import {useEffect} from "react"
+import {useEffect, useState} from "react"
 import Navbar from '../components/Navbar'
+import axios from "axios"
+
 export default function Home() {
-  useEffect(() => {
+  const [tourHeads, setTourHeads] = useState([]);
+  useEffect( async() => {
+        const {data} = await axios.get("/api/tourhead");
+        console.log(data)
+        const {tour:myTour} = data
+        setTourHeads(myTour)
             // adding limit to package names inside individual package
         let currentYearDOM = document.querySelector(".current-year")
         let tourInfo = document.body.querySelectorAll('.tour-info')
@@ -161,7 +168,8 @@ export default function Home() {
             <section id="tours-tables">
               <h3 className="imp-heading"></h3>
               <hr />
-              <table className="table table-striped table-light table-responsive">
+              { tourHeads && tourHeads.map((tour, index) => {
+              return <table className="table table-striped table-light table-responsive">
                 <thead>
                   <tr>
                     <th className="table-bordered" scope="col">Destination</th>
@@ -171,16 +179,18 @@ export default function Home() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>
-                      <span className="font-weight blue-color">FABULOUS HIMACHAL –</span> <br/>
-                      SHIMLA / MANALI / DHARAMSHALA / DALHOUSIE /
-                      PALAMPUR / PRAGPUR / CHANDIGARH (U.T) / AMRITSAR (PB)
-                    </td>
-                    <td className="font-weight">Rs.17,750/- per person</td>
-                    <td><Link href="/himachal">Click for more
-                      details</Link></td>
+                      <td>
+                        <span className={`font-weight ${index % 2 === 0 ? "blue-color" :"purple-color" }`}>{tour.tourName} –</span> <br/>
+                        <p>{tour.tourDescription}</p>
+                      </td>
+                      <td className="font-weight">{tour.startingPrice} per person</td>
+                      <td><Link href={`${tour.tourName}`}>Click for more
+                        details</Link></td>
                     </tr>
-                  <tr>
+                  </tbody>
+                </table>
+                  }) }
+                  {/* <tr>
                     <td>
                       <span className="font-weight purple-color">MAJESTIC KARNATAKA –</span> <br/>
                       BENGALURU / MYSURU / OOTY (TN) / HASSAN / COORG /
@@ -190,9 +200,7 @@ export default function Home() {
                     <td className="font-weight">Rs.16,750/- per person</td>
                     <td><a href="karnataka">Click for more
                       details</a></td>
-                    </tr>
-                  </tbody>
-                </table>
+                    </tr> */}
             </section>
             
           </div>

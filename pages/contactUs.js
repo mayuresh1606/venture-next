@@ -11,13 +11,11 @@ export default function Contact(){
         {/* {% else %} */}
         <div className="address">
             <div className="address-info">
-                <h4>Venture World,
-                Swagath Travels</h4>
+                <h4>Venture World</h4>
                 <p>CHHAJED HOUSE, JAIL GROUND, NEAR OLD R. T. O., THANE - 400601.</p>
-                    
-                <span>Tel:022-25474298</span>
-                <p>Mobile: 9869850055, <br/> 9969829065 <br/>9869840335</p>
-                <p>Email Id : <span className="email-id">yashodhar_raj@yahoo.com</span><br/> yash@ventureworld.org <br/> rajendra@ventureworld.org <br/> info@ventureworld.org</p>
+                
+                <p>Mobile: 9869850055, <br/> 9833993740<br/></p>
+                <p>Email Id : <span className="email-id">yashodhar_raj@yahoo.com</span></p>
             </div>
             <div className="address-location">
                 <center>

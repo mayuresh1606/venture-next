@@ -12,7 +12,7 @@ export default function Tours(){
             <section id="himachal">
                 <div className="venture-info">
                     <div className="tour-img">
-                        <img className="tour-img-bordered" src="/images/himachal/manali.jpg" alt="err" />
+                        <img className="tour-img-bordered" src="/images/himachal/himachal.jpg" alt="err" />
                     </div>
                     <div className="tour-info">
                         <h3>Fabulous Himachal</h3>
@@ -28,7 +28,7 @@ export default function Tours(){
             <section id="karnataka">
                 <div className="venture-info">
                     <div className="tour-img">
-                        <img className="tour-img-bordered" src="/images/karnataka/mysore.jpg" alt="err" />
+                        <img className="tour-img-bordered" src="/images/karnataka/coorg.jpg" alt="err" />
                     </div>
                     <div className="tour-info">
                         <h3>Majestic Karnataka</h3>

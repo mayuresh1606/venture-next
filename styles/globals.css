@@ -260,6 +260,7 @@ header {
   height: 91%;
   margin-right: 0.5rem;
   margin-bottom: 1.1vh;
+  object-fit: contain;
 }
 .height100 {
   height: 91.5%;
@@ -408,6 +409,56 @@ header {
 .font-weight-light {
   font-weight: 600;
 }
+.tours-form{
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+.tours-form div{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  left: 0;
+  margin: 1rem 0;
+}
+.tours-form input, .tours-form button{
+  width: 100%;
+}
+.tours-form button{
+  grid-column-end: span;
+  margin: auto;
+  width: 4rem;
+  height: 2rem;
+  position: relative;
+}
+.edit-btns{
+  display: flex;
+  justify-content: space-evenly;
+}
+.toursName-flex div, .allTours-flex div{
+  display: flex;
+  width: 50%;
+  height: auto;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.delete-btn{
+  background-color: crimson;
+  border: none;
+  border-radius: 10px;
+  height: 2.5rem;
+  color: wheat;
+}
+.edit{
+  width: fit-content !important;
+  height: 2.5rem;
+  background-color: #4b4b97;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
 .group-table {
   width: 30rem;
   height: 17rem;
@@ -541,6 +592,15 @@ figure img {
 }
 .hidden {
   visibility: hidden;
+}
+.hiddenNone{
+  visibility: hidden;
+  display: none;
+}
+.dialog-box div{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
 }
 .reverse {
   direction: rtl;
@@ -907,6 +967,9 @@ footer {
     text-align: right;
     color: grey;
   }
+  .tours-form input, .tours-form button {
+    width: 80%;
+  }
 }
 @media only screen and (min-width: 326px) and (max-width: 600px) {
   .my-container {
@@ -1004,6 +1067,9 @@ footer {
   .edu-sect {
     margin: 25px 10px;
     font-size: smaller;
+  }
+  .tours-form{
+    grid-template-columns: auto;
   }
   .table-responsive {
     max-width: 55vw;
@@ -1166,6 +1232,9 @@ footer {
     margin: 0 10vw;
     text-align: right;
     color: grey;
+  }
+  .tours-form input, .tours-form button {
+    width: 80%;
   }
 }
 @media only screen and (min-width: 600px) and (max-width: 1048px) {
