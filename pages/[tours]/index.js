@@ -3,7 +3,7 @@ import Link from "next/link"
 import { useEffect, useState } from "react/"
 import Navbar from "../../components/Navbar"
 import axios from "axios"
-export default function({tourName}){
+export default function Tours({tourName}){
     const [tours, setTours] = useState([])
     useEffect(async() => {
         console.log(tourName, "TOUR")

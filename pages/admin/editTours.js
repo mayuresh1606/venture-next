@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 
-export default function(){
+export default function EditTours(){
     const [tourData, setTourData] = useState({
         tourNames:[],
         tours:[]

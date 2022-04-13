@@ -3,7 +3,7 @@ import axios from "axios";
 import Link from "next/link"
 import ErrorBoundary from "../../javascript/ErrorBoundary";
 
-export default () => {
+export default AdminTours = () => {
     const [formValues, setFormValues] = useState({});
     const [tours, setTours] = useState([]);
     const [error, setError] = useState(false);

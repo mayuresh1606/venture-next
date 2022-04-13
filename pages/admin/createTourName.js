@@ -1,6 +1,6 @@
 import {useState} from "react";
 import axios from "axios"
-export default function (){
+export default function CreateTourName(){
     const [message, setMessage] = useState();
     const [formValues, setFormValues] = useState({});
     const handleSubmit = async(e) => {

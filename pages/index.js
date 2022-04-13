@@ -50,7 +50,7 @@ export default function Home() {
         // Apply to all slideshows that you define with the markup wrote
         slideshows.forEach(initSlideShow);
 
-        function initSlideShow(slideshow) {
+        async function initSlideShow(slideshow) {
             console.log(slideshow);
             var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`); // Get an array of slides
 
@@ -169,7 +169,7 @@ export default function Home() {
               <h3 className="imp-heading"></h3>
               <hr />
               { tourHeads && tourHeads.map((tour, index) => {
-              return <table className="table table-striped table-light table-responsive">
+              return <table key={tour._id} className="table table-striped table-light table-responsive">
                 <thead>
                   <tr>
                     <th className="table-bordered" scope="col">Destination</th>
