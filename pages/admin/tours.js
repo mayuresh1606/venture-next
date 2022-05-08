@@ -61,15 +61,48 @@ export default function AdminTours(){
     }
 
     const createTourPrices = async(e) => {
+        if (!formValues.itineraryDayFive){
+            formValues.itineraryDayFive = false
+        }
+        if (!formValues.itineraryDaySix){
+            formValues.itineraryDaySix = false
+        }
+        if (!formValues.itineraryDaySeven){
+            formValues.itineraryDaySeven = false
+        }
+        if (!formValues.itineraryDayEight){
+            formValues.itineraryDayEight = false
+        }
+        if (!formValues.itineraryDayNine){
+            formValues.itineraryDayNine = false
+        }
+        if (!formValues.itineraryDayTen){
+            formValues.itineraryDayTen = false
+        }
+        if (!formValues.itineraryDayEleven){
+            formValues.itineraryDayEleven = false
+        }
+        if (!formValues.itineraryDayTwelve){
+            formValues.itineraryDayTwelve = false
+        }
+        if (!formValues.itineraryDayThirteen){
+            formValues.itineraryDayThirteen = false
+        }
+        if (!formValues.itineraryDayFourteen){
+            formValues.itineraryDayFourteen = false
+        }
         e.preventDefault()
         try{
             console.log(formValues);
             const {data: {prices}} = await axios.post(`/api/tours`, formValues)
-            console.log(data, "Tour data");
-            if (prices){
+            console.log(prices, "Tour data");
+            if (prices.acknowledged){
                 setError({
                     message: "Tour Created Successfully!!!"
                 })
+                setTimeout(() => {
+                    setError(false);
+                }, 3000)
             }
         }catch(err){
             if (err.response.data.error.message){
@@ -121,11 +154,11 @@ export default function AdminTours(){
                 {tours.length !== 0? tours.map((tour) => <>
                 <div>{/* comfortName */}
                     <label htmlFor="comfortPrice">Comfort Name: </label>
-                    <input onChange={(e) => setFormValues({...formValues, comfortName:e.currentTarget.value})} type="text" name="comfortName" />
+                    <input defaultValue={tour.comfortName} onChange={(e) => setFormValues({...formValues, comfortName:e.currentTarget.value})} type="text" name="comfortName" />
                 </div>
                 <div>{/* comfortDuration */}
                     <label htmlFor="comfortPrice">Comfort Duration: </label>
-                    <input onChange={(e) => setFormValues({...formValues, comfortDuration:e.currentTarget.value})} type="text" name="comfortDuration" />
+                    <input defaultValue={tour.comfortDuration} onChange={(e) => setFormValues({...formValues, comfortDuration:e.currentTarget.value})} type="text" name="comfortDuration" />
                 </div>
                 {/* comfortPrice */}
                 <div>
@@ -134,11 +167,11 @@ export default function AdminTours(){
                 </div>
                 <div>{/* compactName */}
                     <label htmlFor="compactName">Compact Name: </label>
-                    <input onChange={(e) => setFormValues({...formValues, compactName:e.currentTarget.value})} type="text" name="compactName" />
+                    <input defaultValue={tour.compactName} onChange={(e) => setFormValues({...formValues, compactName:e.currentTarget.value})} type="text" name="compactName" />
                 </div>
                 <div>{/* compactDuration */}
                     <label htmlFor="compactDuration">Compact Duration: </label>
-                    <input onChange={(e) => setFormValues({...formValues, compactDuration:e.currentTarget.value})} type="text" name="compactDuration" />
+                    <input defaultValue={tour.compactDuration} onChange={(e) => setFormValues({...formValues, compactDuration:e.currentTarget.value})} type="text" name="compactDuration" />
                 </div>
                 {/* compactPrice */}
                 <div>
@@ -147,105 +180,105 @@ export default function AdminTours(){
                 </div>
                 <div>{/* itineraryDayOne */}
                     <label htmlFor="itineraryDayOne">Itinerary Day One: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayOne:e.currentTarget.value})} type="text" name="itineraryDayOne" />
+                    <textarea defaultValue={tour.itineraryDayOne} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayOne:e.currentTarget.value})} type="text" name="itineraryDayOne" />
                 </div>
                 <div>{/* itineraryDayTwo */}
                     <label htmlFor="itineraryDayTwo">Itinerary Day Two: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTwo:e.currentTarget.value})} type="text" name="itineraryDayTwo" />
+                    <textarea defaultValue={tour.itineraryDayTwo} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTwo:e.currentTarget.value})} type="text" name="itineraryDayTwo" />
                 </div>
                 <div>{/* itineraryDayThree */}
                     <label htmlFor="itineraryDayThree">Itinerary Day Three: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayThree:e.currentTarget.value})} type="text" name="itineraryDayThree" />
+                    <textarea defaultValue={tour.itineraryDayThree} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayThree:e.currentTarget.value})} type="text" name="itineraryDayThree" />
                 </div>
                 <div>{/* itineraryDayFour */}
                     <label htmlFor="itineraryDayFour">Itinerary Day Four: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayFour:e.currentTarget.value})} type="text" name="itineraryDayFour" />
+                    <textarea defaultValue={tour.itineraryDayFour} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayFour:e.currentTarget.value})} type="text" name="itineraryDayFour" />
                 </div>
                 <div>{/* itineraryDayFive */}
                     <label htmlFor="itineraryDayFive">Itinerary Day Five: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayFive:e.currentTarget.value})} type="text" name="itineraryDayFive" />
+                    <textarea defaultValue={tour.itineraryDayFive} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayFive:e.currentTarget.value})} type="text" name="itineraryDayFive" />
                 </div>
                 <div>{/* itineraryDaySix */}
                     <label htmlFor="itineraryDaySix">Itinerary Day Six: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDaySix:e.currentTarget.value})} type="text" name="itineraryDaySix" />
+                    <textarea defaultValue={tour.itineraryDaySix} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDaySix:e.currentTarget.value})} type="text" name="itineraryDaySix" />
                 </div>
                 <div>{/* itineraryDaySeven */}
                     <label htmlFor="itineraryDaySeven">Itinerary Day Seven: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDaySeven:e.currentTarget.value})} type="text" name="itineraryDaySeven" />
+                    <textarea defaultValue={tour.itineraryDaySeven} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDaySeven:e.currentTarget.value})} type="text" name="itineraryDaySeven" />
                 </div>
                 <div>{/* itineraryDayEight */}
                     <label htmlFor="itineraryDayEight">Itinerary Day Eight: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayEight:e.currentTarget.value})} type="text" name="itineraryDayEight" />
+                    <textarea defaultValue={tour.itineraryDayEight} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayEight:e.currentTarget.value})} type="text" name="itineraryDayEight" />
                 </div>
                 <div>{/* itineraryDayNine */}
                     <label htmlFor="itineraryDayNine">Itinerary Day Nine: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayNine:e.currentTarget.value})} type="text" name="itineraryDayNine" />
+                    <textarea defaultValue={tour.itineraryDayNine} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayNine:e.currentTarget.value})} type="text" name="itineraryDayNine" />
                 </div>
                 <div>{/* itineraryDayTen */}
                     <label htmlFor="itineraryDayTen">Itinerary Day Ten: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTen:e.currentTarget.value})} type="text" name="itineraryDayTen" />
+                    <textarea defaultValue={tour.itineraryDayTen} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTen:e.currentTarget.value})} type="text" name="itineraryDayTen" />
                 </div>
                 <div>{/* itineraryDayEleven */}
                     <label htmlFor="itineraryDayEleven">Itinerary Day Eleven: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayEleven:e.currentTarget.value})} type="text" name="itineraryDayEleven" />
+                    <textarea defaultValue={tour.itineraryDayEleven} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayEleven:e.currentTarget.value})} type="text" name="itineraryDayEleven" />
                 </div>
                 <div>{/* itineraryDayTwelve */}
                     <label htmlFor="itineraryDayTwelve">Itinerary Day Twelve: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTwelve:e.currentTarget.value})} type="text" name="itineraryDayTwelve" />
+                    <textarea defaultValue={tour.itineraryDayTwelve} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTwelve:e.currentTarget.value})} type="text" name="itineraryDayTwelve" />
                 </div>
                 <div>{/* itineraryDayThirteen */}
                     <label htmlFor="itineraryDayThirteen">Itinerary Day Thirteen: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayThirteen:e.currentTarget.value})} type="text" name="itineraryDayThirteen" />
+                    <textarea defaultValue={tour.itineraryDayThirteen} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayThirteen:e.currentTarget.value})} type="text" name="itineraryDayThirteen" />
                 </div>
                 <div>{/* itineraryDayFourteen */}
                     <label htmlFor="itineraryDayFourteen">Itinerary Day Fourteen: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayFourteen:e.currentTarget.value})} type="text" name="itineraryDayFourteen" />
+                    <textarea defaultValue={tour.itineraryDayFourteen} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayFourteen:e.currentTarget.value})} type="text" name="itineraryDayFourteen" />
                 </div>
                 <div>{/* noteOne */}
                     <label htmlFor="noteOne">Note One: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteOne:e.currentTarget.value})} type="text" name="noteOne" />
+                    <textarea defaultValue={tour.noteOne} rows={2} onSubmit={(e) => setFormValues({...formValues, noteOne:e.currentTarget.value})} onChange={(e) => setFormValues({...formValues, noteOne:e.currentTarget.value})} type="text" name="noteOne" />
                 </div>
                 <div>{/* noteTwo */}
                     <label htmlFor="noteTwo">Note Two: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteTwo:e.currentTarget.value})} type="text" name="noteTwo" />
+                    <textarea defaultValue={tour.noteTwo} rows={2} onSubmit={(e) => setFormValues({...formValues, noteTwo:e.currentTarget.value})} onChange={(e) => setFormValues({...formValues, noteTwo:e.currentTarget.value})} type="text" name="noteTwo" />
                 </div>
                 <div>{/* noteThree */}
                     <label htmlFor="noteThree">Note Three: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteThree:e.currentTarget.value})} type="text" name="noteThree" />
+                    <textarea defaultValue={tour.noteThree} rows={2} onSubmit={(e) => setFormValues({...formValues, noteThree:e.currentTarget.value})} onChange={(e) => setFormValues({...formValues, noteThree:e.currentTarget.value})} type="text" name="noteThree" />
                 </div>
                 <div>{/* noteFour */}
                     <label htmlFor="noteFour">Note Four: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteFour:e.currentTarget.value})} type="text" name="noteFour" />
+                    <textarea defaultValue={tour.noteFour} rows={2} onSubmit={(e) => setFormValues({...formValues, noteFour:e.currentTarget.value})} onChange={(e) => setFormValues({...formValues, noteFour:e.currentTarget.value})} type="text" name="noteFour" />
                 </div>
                 <div>{/* noteFive */}
                     <label htmlFor="noteFive">Note Five: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteFive:e.currentTarget.value})} type="text" name="noteFive" />
+                    <textarea defaultValue={tour.noteFive} rows={2} onChange={(e) => setFormValues({...formValues, noteFive:e.currentTarget.value})} type="text" name="noteFive" />
                 </div>
                 <div>{/* shortNote */}
                     <label htmlFor="shortNote">Short Note: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, shortNote:e.currentTarget.value})} type="text" name="shortNote" />
+                    <textarea defaultValue={tour.shortNote} rows={2} onChange={(e) => setFormValues({...formValues, shortNote:e.currentTarget.value})} type="text" name="shortNote" />
                 </div>
                 <div>{/* accommodationOne */}
                     <label htmlFor="accommodationOne">Accommodation One: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationOne:e.currentTarget.value})} type="text" name="accommodationOne" />
+                    <input defaultValue={tour.accommodationOne} onChange={(e) => setFormValues({...formValues, accommodationOne:e.currentTarget.value})} type="text" name="accommodationOne" />
                 </div>
                 <div>{/* accommodationTwo */}
                     <label htmlFor="accommodationTwo">Accommodation Two: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationTwo:e.currentTarget.value})} type="text" name="accommodationTwo" />
+                    <input defaultValue={tour.accommodationTwo} onChange={(e) => setFormValues({...formValues, accommodationTwo:e.currentTarget.value})} type="text" name="accommodationTwo" />
                 </div>
                 <div>{/* accommodationThree */}
                     <label htmlFor="accommodationThree">Accommodation Three: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationThree:e.currentTarget.value})} type="text" name="accommodationThree" />
+                    <input defaultValue={tour.accommodationThree} onChange={(e) => setFormValues({...formValues, accommodationThree:e.currentTarget.value})} type="text" name="accommodationThree" />
                 </div>
                 <div>{/* accommodationFour */}
                     <label htmlFor="accommodationFour">Accommodation Four: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationFour:e.currentTarget.value})} type="text" name="accommodationFour" />
+                    <input defaultValue={tour.accommodationFour} onChange={(e) => setFormValues({...formValues, accommodationFour:e.currentTarget.value})} type="text" name="accommodationFour" />
                 </div>
                 <div>{/* accommodationFive */}
                     <label htmlFor="accommodationFive">Accommodation Five: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationFive:e.currentTarget.value})} type="text" name="accommodationFive" />
+                    <input defaultValue={tour.accommodationSix} onChange={(e) => setFormValues({...formValues, accommodationFive:e.currentTarget.value})} type="text" name="accommodationFive" />
                 </div>
-
+                <div></div>
                 {/* Table 1 */}
                 <div> {/* luxuryTourComfortGroupFirst */}
                     <label htmlFor="luxuryTourComfortGroupFirst">Luxury Tour Group Comfort Price First: </label>
@@ -356,17 +389,17 @@ export default function AdminTours(){
                     <label htmlFor="comfortPrice">Comfort Price: </label>
                     <input onChange={(e) => setFormValues({...formValues, comfortPrice:e.currentTarget.value})} type="text" name="comfortPrice" />
                 </div>
-                <div>{/* compactPrice */}
-                    <label htmlFor="compactPrice">Compact Price: </label>
-                    <input onChange={(e) => setFormValues({...formValues, compactPrice:e.currentTarget.value})} type="text" name="compactPrice" />
-                </div>
                 <div>{/* compactName */}
                     <label htmlFor="compactName">Compact Name: </label>
-                    <input onChange={(e) => setFormValues({...formValues, compactName:e.currentTarget.value})} type="text" name="compactName" />
+                    <input defaultValue={"false"} onChange={(e) => setFormValues({...formValues, compactName:e.currentTarget.value})} type="text" name="compactName" />
                 </div>
                 <div>{/* compactDuration */}
                     <label htmlFor="compactDuration">Compact Duration: </label>
-                    <input onChange={(e) => setFormValues({...formValues, compactDuration:e.currentTarget.value})} type="text" name="compactDuration" />
+                    <input defaultValue={"false"} onChange={(e) => setFormValues({...formValues, compactDuration:e.currentTarget.value})} type="text" name="compactDuration" />
+                </div>
+                <div>{/* compactPrice */}
+                    <label htmlFor="compactPrice">Compact Price: </label>
+                    <input defaultValue={"false"} onChange={(e) => setFormValues({...formValues, compactPrice:e.currentTarget.value})} type="text" name="compactPrice" />
                 </div>
                 <div>{/* itineraryDayOne */}
                     <label htmlFor="itineraryDayOne">Itinerary Day One: </label>
@@ -394,80 +427,89 @@ export default function AdminTours(){
                 </div>
                 <div>{/* itineraryDaySeven */}
                     <label htmlFor="itineraryDaySeven">Itinerary Day Seven: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDaySeven:e.currentTarget.value})} type="text" name="itineraryDaySeven" />
+                    <textarea defaultValue={"false"} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDaySeven:e.currentTarget.value})} type="text" name="itineraryDaySeven" />
                 </div>
                 <div>{/* itineraryDayEight */}
                     <label htmlFor="itineraryDayEight">Itinerary Day Eight: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayEight:e.currentTarget.value})} type="text" name="itineraryDayEight" />
+                    <textarea defaultValue={"false"} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayEight:e.currentTarget.value})} type="text" name="itineraryDayEight" />
                 </div>
                 <div>{/* itineraryDayNine */}
                     <label htmlFor="itineraryDayNine">Itinerary Day Nine: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayNine:e.currentTarget.value})} type="text" name="itineraryDayNine" />
+                    <textarea defaultValue={"false"} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayNine:e.currentTarget.value})} type="text" name="itineraryDayNine" />
                 </div>
                 <div>{/* itineraryDayTen */}
                     <label htmlFor="itineraryDayTen">Itinerary Day Ten: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTen:e.currentTarget.value})} type="text" name="itineraryDayTen" />
+                    <textarea defaultValue={"false"} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTen:e.currentTarget.value})} type="text" name="itineraryDayTen" />
                 </div>
                 <div>{/* itineraryDayEleven */}
                     <label htmlFor="itineraryDayEleven">Itinerary Day Eleven: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayEleven:e.currentTarget.value})} type="text" name="itineraryDayEleven" />
+                    <textarea defaultValue={"false"} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayEleven:e.currentTarget.value})} type="text" name="itineraryDayEleven" />
                 </div>
                 <div>{/* itineraryDayTwelve */}
                     <label htmlFor="itineraryDayTwelve">Itinerary Day Twelve: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTwelve:e.currentTarget.value})} type="text" name="itineraryDayTwelve" />
+                    <textarea defaultValue={"false"} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayTwelve:e.currentTarget.value})} type="text" name="itineraryDayTwelve" />
                 </div>
                 <div>{/* itineraryDayThirteen */}
                     <label htmlFor="itineraryDayThirteen">Itinerary Day Thirteen: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayThirteen:e.currentTarget.value})} type="text" name="itineraryDayThirteen" />
+                    <textarea defaultValue={"false"} onSubmit={(e) => {
+                        if (e.currentTarget.value === "false"){
+                            setFormValues({...formValues,  itineraryDayThirteen:e.currentTarget.value});
+                        }
+                    }} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayThirteen:e.currentTarget.value})} type="text" name="itineraryDayThirteen" />
                 </div>
                 <div>{/* itineraryDayFourteen */}
                     <label htmlFor="itineraryDayFourteen">Itinerary Day Fourteen: </label>
-                    <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayFourteen:e.currentTarget.value})} type="text" name="itineraryDayFourteen" />
+                    <textarea defaultValue={false} onSubmit={(e) => {
+                        if (e.currentTarget.value === "false"){
+                            setFormValues({...formValues,  itineraryDayFourteen:e.currentTarget.value});
+                        }
+                    }} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayFourteen:e.currentTarget.value})} type="text" name="itineraryDayFourteen" />
                 </div>
                 <div>{/* noteOne */}
                     <label htmlFor="noteOne">Note One: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteOne:e.currentTarget.value})} type="text" name="noteOne" />
+                    <textarea defaultValue={"1) Venture world arranges sightseeing for guest on the Rohtang road where ever permitted and not on Rohtang pass. Rohtang pass can be visited from May to October with permits. However, the availability of permit is limited. Interested guests should make their own arrangements to get permits."} rows={2} onSubmitCapture={(e) => setFormValues({...formValues, noteOne:e.currentTarget.value})} onChange={(e) => setFormValues({...formValues, noteOne:e.currentTarget.value})} type="text" name="noteOne" />
                 </div>
                 <div>{/* noteTwo */}
                     <label htmlFor="noteTwo">Note Two: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteTwo:e.currentTarget.value})} type="text" name="noteTwo" />
+                    <textarea defaultValue={"2) In Himachal, there may be road blockages due to weather conditions and traffic jam. This can cause delay in reaching a place of visit or even avoiding a spot in extreme conditions."} rows={2} onSubmitCapture={(e) => setFormValues({...formValues, noteTwo:e.currentTarget.value})} onChange={(e) => setFormValues({...formValues, noteTwo:e.currentTarget.value})} type="text" name="noteTwo" />
                 </div>
                 <div>{/* noteThree */}
                     <label htmlFor="noteThree">Note Three: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteThree:e.currentTarget.value})} type="text" name="noteThree" />
+                    <textarea defaultValue={"3) Snow falls in Himachal between late Dec and mid-April. However, Himachal may receive heavy or less snowfall."} rows={2} onSubmitCapture={(e) => setFormValues({...formValues, noteThree:e.currentTarget.value})} onChange={(e) => setFormValues({...formValues, noteThree:e.currentTarget.value})} type="text" name="noteThree" />
                 </div>
                 <div>{/* noteFour */}
                     <label htmlFor="noteFour">Note Four: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteFour:e.currentTarget.value})} type="text" name="noteFour" />
+                    <textarea defaultValue={"4) In the snow points the locals rent winter jackets, shoes, gloves, and other gears / gadgets used for snow and extreme cold conditions. These are optional articles guests can avail those facilities at their own expense."} rows={2} onSubmitCapture={(e) => setFormValues({...formValues, noteFour:e.currentTarget.value})} onChange={(e) => setFormValues({...formValues, noteFour:e.currentTarget.value})} type="text" name="noteFour" />
                 </div>
                 <div>{/* noteFive */}
                     <label htmlFor="noteFive">Note Five: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, noteFive:e.currentTarget.value})} type="text" name="noteFive" />
+                    <textarea defaultValue={false} rows={2} onChange={(e) => setFormValues({...formValues, noteFive:e.currentTarget.value})} type="text" name="noteFive" />
                 </div>
                 <div>{/* shortNote */}
                     <label htmlFor="shortNote">Short Note: </label>
-                    <textarea rows={2} onChange={(e) => setFormValues({...formValues, shortNote:e.currentTarget.value})} type="text" name="shortNote" />
+                    <textarea defaultValue={false} rows={2} onChange={(e) => setFormValues({...formValues, shortNote:e.currentTarget.value})} type="text" name="shortNote" />
                 </div>
                 <div>{/* accommodationOne */}
                     <label htmlFor="accommodationOne">Accommodation One: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationOne:e.currentTarget.value})} type="text" name="accommodationOne" />
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, accommodationOne:e.currentTarget.value})} type="text" name="accommodationOne" />
                 </div>
                 <div>{/* accommodationTwo */}
                     <label htmlFor="accommodationTwo">Accommodation Two: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationTwo:e.currentTarget.value})} type="text" name="accommodationTwo" />
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, accommodationTwo:e.currentTarget.value})} type="text" name="accommodationTwo" />
                 </div>
                 <div>{/* accommodationThree */}
                     <label htmlFor="accommodationThree">Accommodation Three: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationThree:e.currentTarget.value})} type="text" name="accommodationThree" />
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, accommodationThree:e.currentTarget.value})} type="text" name="accommodationThree" />
                 </div>
                 <div>{/* accommodationFour */}
                     <label htmlFor="accommodationFour">Accommodation Four: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationFour:e.currentTarget.value})} type="text" name="accommodationFour" />
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, accommodationFour:e.currentTarget.value})} type="text" name="accommodationFour" />
                 </div>
                 <div>{/* accommodationFive */}
                     <label htmlFor="accommodationFive">Accommodation Five: </label>
-                    <input onChange={(e) => setFormValues({...formValues, accommodationFive:e.currentTarget.value})} type="text" name="accommodationFive" />
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, accommodationFive:e.currentTarget.value})} type="text" name="accommodationFive" />
                 </div>
+                <div></div>
                 {/* Table 1 */}
                 <div>{/* luxuryTourComfortGroupFirst */}
                     <label htmlFor="luxuryTourComfortGroupFirst">Luxury Tour Group Comfort Price First: </label>
@@ -479,27 +521,27 @@ export default function AdminTours(){
                 </div>
                 <div>{/* luxuryTourComfortGroupSecond */}
                     <label htmlFor="luxuryTourComfortGroupSecond">Luxury Tour Group Comfort Price Second: </label>
-                    <input onChange={(e) => setFormValues({...formValues, luxuryTourComfortGroupSecond:e.currentTarget.value})} type="text" name="luxuryTourComfortGroupSecond"/>
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, luxuryTourComfortGroupSecond:e.currentTarget.value})} type="text" name="luxuryTourComfortGroupSecond"/>
                 </div>
                 <div>{/* luxuryTourCompactGroupSecond */}
                     <label htmlFor="luxuryTourCompactGroupSecond">Luxury Tour Group Compact Price Second: </label>
-                    <input onChange={(e) => setFormValues({...formValues, luxuryTourCompactGroupSecond:e.currentTarget.value})} type="text" name="luxuryTourCompactGroupSecond"/>
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, luxuryTourCompactGroupSecond:e.currentTarget.value})} type="text" name="luxuryTourCompactGroupSecond"/>
                 </div>
                 <div>{/* budgetTourComfortGroupFirst */}
                     <label htmlFor="budgetTourComfortGroupFirst">Budget Tour Group Comfort Price First: </label>
-                    <input onChange={(e) => setFormValues({...formValues, budgetTourComfortGroupFirst:e.currentTarget.value})} type="text" name="budgetTourComfortGroupFirst"/>
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, budgetTourComfortGroupFirst:e.currentTarget.value})} type="text" name="budgetTourComfortGroupFirst"/>
                 </div>
                 <div>{/* budgetTourCompactGroupFirst */}
                     <label htmlFor="budgetTourCompactGroupFirst">Budget Tour Group Compact Price First: </label>
-                    <input onChange={(e) => setFormValues({...formValues, budgetTourCompactGroupFirst:e.currentTarget.value})} type="text" name="budgetTourCompactGroupFirst"/>
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, budgetTourCompactGroupFirst:e.currentTarget.value})} type="text" name="budgetTourCompactGroupFirst"/>
                 </div>
                 <div>{/* budgetTourComfortGroupSecond */}
                     <label htmlFor="budgetTourComfortGroupSecond">Budget Tour Group Comfort Price Second: </label>
-                    <input onChange={(e) => setFormValues({...formValues, budgetTourComfortGroupSecond:e.currentTarget.value})} type="text" name="budgetTourComfortGroupSecond"/>
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, budgetTourComfortGroupSecond:e.currentTarget.value})} type="text" name="budgetTourComfortGroupSecond"/>
                 </div>
                 <div>{/* budgetTourCompactGroupSecond */}
                     <label htmlFor="budgetTourCompactGroupSecond">Budget Tour Group Compact Price Second: </label>
-                    <input onChange={(e) => setFormValues({...formValues, budgetTourCompactGroupSecond:e.currentTarget.value})} type="text" name="budgetTourCompactGroupSecond"/>
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, budgetTourCompactGroupSecond:e.currentTarget.value})} type="text" name="budgetTourCompactGroupSecond"/>
                 </div>
 
                 {/* Table 2 */}
@@ -513,35 +555,35 @@ export default function AdminTours(){
                 </div>
                 <div>{/* luxuryTourComfortRegularSecond */}
                 <label htmlFor="luxuryTourComfortRegularSecond">Luxury Tour Regular Comfort Price Second: </label>
-                <input onChange={(e) => setFormValues({...formValues, luxuryTourComfortRegularSecond:e.currentTarget.value})} type="text" name="luxuryTourComfortRegularSecond"/>
+                <input defaultValue={false} onChange={(e) => setFormValues({...formValues, luxuryTourComfortRegularSecond:e.currentTarget.value})} type="text" name="luxuryTourComfortRegularSecond"/>
                 </div>
                 <div>{/* luxuryTourCompactRegularSecond */}
                 <label htmlFor="luxuryTourCompactRegularSecond">Luxury Tour Regular Compact Price Second: </label>
-                <input onChange={(e) => setFormValues({...formValues, luxuryTourCompactRegularSecond:e.currentTarget.value})} type="text" name="luxuryTourCompactRegularSecond"/>
+                <input defaultValue={false} onChange={(e) => setFormValues({...formValues, luxuryTourCompactRegularSecond:e.currentTarget.value})} type="text" name="luxuryTourCompactRegularSecond"/>
                 </div>
                 <div>{/* budgetTourComfortRegularFirst */}
                 <label htmlFor="budgetTourComfortRegularFirst">Budget Tour Regular Comfort Price First: </label>
-                <input onChange={(e) => setFormValues({...formValues, budgetTourComfortRegularFirst:e.currentTarget.value})} type="text" name="budgetTourComfortRegularFirst"/>
+                <input defaultValue={false} onChange={(e) => setFormValues({...formValues, budgetTourComfortRegularFirst:e.currentTarget.value})} type="text" name="budgetTourComfortRegularFirst"/>
                 </div>
                 <div>{/* budgetTourCompactRegularFirst */}
                 <label htmlFor="budgetTourCompactRegularFirst">Budget Tour Regular Compact Price First: </label>
-                <input onChange={(e) => setFormValues({...formValues, budgetTourCompactRegularFirst:e.currentTarget.value})} type="text" name="budgetTourCompactRegularFirst"/>
+                <input defaultValue={false} onChange={(e) => setFormValues({...formValues, budgetTourCompactRegularFirst:e.currentTarget.value})} type="text" name="budgetTourCompactRegularFirst"/>
                 </div>
                 <div>{/* budgetTourComfortRegularSecond */}
                 <label htmlFor="budgetTourComfortRegularSecond">Budget Tour Regular Comfort Price Second: </label>
-                <input onChange={(e) => setFormValues({...formValues, budgetTourComfortRegularSecond:e.currentTarget.value})} type="text" name="budgetTourComfortRegularSecond"/>
+                <input defaultValue={false} onChange={(e) => setFormValues({...formValues, budgetTourComfortRegularSecond:e.currentTarget.value})} type="text" name="budgetTourComfortRegularSecond"/>
                 </div>
                 <div>{/* budgetTourCompactRegularSecond */}
                 <label htmlFor="budgetTourCompactRegularSecond">Budget Tour Regular Compact Price Second: </label>
-                <input onChange={(e) => setFormValues({...formValues, budgetTourCompactRegularSecond:e.currentTarget.value})} type="text" name="budgetTourCompactRegularSecond"/>
+                <input defaultValue={false} onChange={(e) => setFormValues({...formValues, budgetTourCompactRegularSecond:e.currentTarget.value})} type="text" name="budgetTourCompactRegularSecond"/>
                 </div>
                 <div>{/* scheduledTourFirst */}
                 <label htmlFor="scheduledTourFirst">Scheduled Tour First: </label>
-                <input onChange={(e) => setFormValues({...formValues, scheduledTourFirst:e.currentTarget.value})} type="text" name="scheduledTourFirst"/>
+                <input defaultValue={false} onChange={(e) => setFormValues({...formValues, scheduledTourFirst:e.currentTarget.value})} type="text" name="scheduledTourFirst"/>
                 </div>
                 <div>{/* scheduledTourSecond */}
                     <label htmlFor="scheduledTourSecond">Scheduled Tour Second: </label>
-                    <input onChange={(e) => setFormValues({...formValues, scheduledTourSecond:e.currentTarget.value})} type="text" name="scheduledTourSecond"/>
+                    <input defaultValue={false} onChange={(e) => setFormValues({...formValues, scheduledTourSecond:e.currentTarget.value})} type="text" name="scheduledTourSecond"/>
                 </div>
 
                 <button className="edit" type="submit">Submit</button>

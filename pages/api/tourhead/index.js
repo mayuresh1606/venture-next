@@ -1,18 +1,25 @@
 import Tour from "../../../models/Tour";
+const {connectToDatabase} = require("../../../lib/mongodb");
+const ObjectId = require('mongodb').ObjectId;
+
 
 export default async function (req, res) {
     try{
+        let { db } = await connectToDatabase();
         const {method} = req;
         if (method === "POST"){
-            const tour = await Tour.create(req.body);
-            return res.status(201).json({success:true, tour});
+            console.log("post called")
+            // const tour = await Tour.create(req.body)
+            const tour = await db.collection('tours').insertOne(req.body);
+            // return res.status(201).json({success:true, tour:JSON.stringify(tour)});
+            return res.status(201).json({success:true, tour:{tourName:req.body.tourName}});
         }
         if (method === "GET"){
-            console.log("GET Request called")
-            const tour = await Tour.find({});
-            return res.status(200).json({success:true, tour});
+            const tour = await db.collection('tours').find({}).toArray();
+            return res.status(200).json({success:true, tour:JSON.parse(JSON.stringify(tour))});
         }
     }catch(err){
-        return res.status(400).json(err.response);
+        console.log(err)
+        return res.status(400).json({err});
     }
 }

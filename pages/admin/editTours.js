@@ -97,7 +97,8 @@ export default function EditTours(){
                         <p>{tour.tourName} <span>Tour Number: {tour.tourNumber}</span></p>
                         <button className="delete-btn" onClick={() => setDialog({
                             state:true,
-                            name:`Name: ${tour.tourName} Tour Number: ${tour.tourNumber} `
+                            name:`Name: ${tour.tourName} Tour Number: ${tour.tourNumber} `,
+                            id:tour._id
                         })}>Delete</button>
                         <p>{message.length ? message.id === tour.id && message.message: null}</p>
                         </div>

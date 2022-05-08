@@ -1,8 +1,11 @@
 const User = require("../../../models/User");
 const bcrypt = require("bcryptjs");
+const {connectToDatabase} = require("../../../lib/mongodb");
+const ObjectId = require('mongodb').ObjectId;
 
 export default async(req, res) => {
     try{
+        let { db } = await connectToDatabase();
         const {method} = req;
         if(method === "POST"){
             const [user] = await User.find({name:req.body.name})

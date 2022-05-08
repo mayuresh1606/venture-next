@@ -6,9 +6,13 @@ import axios from "axios"
 export default function Tours({tourName}){
     const [tours, setTours] = useState([])
     useEffect(async() => {
+        try{
         console.log(tourName, "TOUR")
         const {data: {prices}} = await axios.get(`/api/tours?tourName=${tourName}`)
         setTours(prices)
+        }catch(err){
+            console.log(err.response)
+        }
     }, [])
     return <>
         <Head>
@@ -50,22 +54,22 @@ export default function Tours({tourName}){
                         <th scope="col">Starting</th>
                     </tr>
                 </thead>
-                <tbody className="font-weight-light">
-                    {tours.map((tour) => <tr key={tour._id} className="blue-color" style={{"height": "min-content"}}>
-                        <td width="13%">
-                            <a style={{"margin": "0"}} className="aside-content new-content" href={`#tour-${tour.tourNumber}`}><p>Tour {tour.tourNumber}</p></a>
-                        </td>
-                        <td>COMFORT</td>
-                        <td>
-                            {tour.comfortName}
-                        </td>
-                        <td width="15%">
-                            <p>{tour.comfortDuration}</p>
-                        </td>
-                        <td>{tour.comfortPrice}</td>
+                {/* <tbody className="font-weight-light"> */}
+                    {tours.map((tour) => <tbody key={tour._id} className="font-weight-light">
+                    <tr className="blue-color" style={{"height": "min-content"}}>
+                            <td width="13%">
+                                <a style={{"margin": "0"}} className="aside-content new-content" href={`#tour-${tour.tourNumber}`}><p>Tour {tour.tourNumber}</p></a>
+                            </td>
+                            <td>COMFORT</td>
+                            <td>
+                                {tour.comfortName}
+                            </td>
+                            <td width="15%">
+                                <p>{tour.comfortDuration}</p>
+                            </td>
+                            <td>{tour.comfortPrice}</td>
                     </tr>
-                    )}
-                    {tours.map((tour) => <tr key={tour._id} className="red-color">
+                    <tr className="red-color">
                         <td>
                             
                         </td>
@@ -78,8 +82,8 @@ export default function Tours({tourName}){
                         </td>
                         <td>{tour.compactPrice}</td>
                     </tr>
+                    </tbody>
                     )}
-                </tbody>
             </table>
             {tours.map((tour) => <section key={tour._id} id={`tour-${tour.tourNumber}`}>
                 <h4 className="font-weight"><span className="lightblue-color"> {tour.tourName} </span>- Tour {tour.tourNumber}</h4>
@@ -783,22 +787,24 @@ export default function Tours({tourName}){
     </>
 }
 
-export async function getStaticPaths(){
-    let tourNames = ["FABULOUS HIMACHAL", "MAJESTIC KARNATAKA"]
-    const paths = tourNames.map((tour) => {
-        return {
-            params:{
-                tours:tour
-            }
-        }
-    })
-    return {
-        paths,
-        fallback:false
-    };
-}
+// export async function getStaticPaths(){
+//     // const {tour} = data;
+//     let tourNames = ["FABULOUS HIMACHAL", "MAJESTIC KARNATAKA"]
+//     const paths = tourNames.map((tour) => {
+//         return {
+//             params:{
+//                 tours:tour
+//             }
+//         }
+//     })
+//     return {
+//         paths,
+//         fallback:false
+//     };
+// }
 
-export async function getStaticProps({params}){
+export async function getServerSideProps({params}){
+    // const {data} = await axios.get("/api/tourhead");
     return {
         props:{
             tourName:params.tours

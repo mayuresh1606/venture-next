@@ -115,27 +115,27 @@ const PricesSchema = new mongoose.Schema({
     },
     luxuryTourComfortGroupSecond:{
         type:String,
-        required:false
+        default:false
     },
     luxuryTourCompactGroupSecond:{
         type:String,
-        required:false
+        default:false
     },
     budgetTourComfortGroupFirst:{
         type:String,
-        required:false
+        default:false
     },
     budgetTourCompactGroupFirst:{
         type:String,
-        required:false
+        default:false
     },
     budgetTourComfortGroupSecond:{
         type:String,
-        required:false
+        default:false
     },
     budgetTourCompactGroupSecond:{
         type:String,
-        required:false
+        default:false
     },
     // Second Table
     luxuryTourComfortRegularFirst:{
@@ -148,36 +148,36 @@ const PricesSchema = new mongoose.Schema({
     },
     luxuryTourComfortRegularSecond:{
         type:String,
-        required:false
+        default:false
     },
     luxuryTourCompactRegularSecond:{
         type:String,
-        required:false
+        default:false
     },
     budgetTourComfortRegularFirst:{
         type:String,
-        required:false
+        default:false
     },
     budgetTourCompactRegularFirst:{
         type:String,
-        required:false
+        default:false
     },
     budgetTourComfortRegularSecond:{
         type:String,
-        required:false
+        default:false
     },
     budgetTourCompactRegularSecond:{
         type:String,
-        required:false
+        default:false
     },
     // third table
     scheduledTourFirst:{
         type:String,
-        required:false
+        default:false
     },
     scheduledTourSecond:{
         type:String,
-        required:false
+        default:false
     },
     shortNote:{
         type:String,

@@ -4,12 +4,13 @@ import Link from "next/link"
 import {useEffect, useState} from "react"
 import Navbar from '../components/Navbar'
 import axios from "axios"
+import { connectToDatabase } from '../lib/mongodb'
 
-export default function Home() {
+export default function Home({isConnected}) {
   const [tourHeads, setTourHeads] = useState([]);
   useEffect( async() => {
         const {data} = await axios.get("/api/tourhead");
-        console.log(data)
+        console.log(data, "My Data")
         const {tour:myTour} = data
         setTourHeads(myTour)
             // adding limit to package names inside individual package
@@ -98,6 +99,7 @@ export default function Home() {
   </Head>
   {/* <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p'></Script> */}
     <Navbar />
+    {isConnected ? <h1>Connected</h1> : <h1>Not connected</h1> }
     <div className="my-container">
         <center><h5 className="venture-slogan">VENTURE WORLDS GLORIOUS 25 YEARS OF TOURING EXPERINCE</h5></center>
         
@@ -250,4 +252,27 @@ export default function Home() {
     </footer>
 </>
   )
+}
+
+export async function getServerSideProps(context) {
+  try {
+    const {db} = await connectToDatabase();
+    // `await clientPromise` will use the default database passed in the MONGODB_URI
+    // However you can use another database (e.g. myDatabase) by replacing the `await clientPromise` with the folloing code:
+    //
+    // `const client = await clientPromise`
+    // `const db = client.db("myDatabase")`
+    //
+    // Then you can execute queries against your database like so:
+    // db.find({}) or any of the MongoDB Node Driver commands
+
+    return {
+      props: { isConnected: true },
+    }
+  } catch (e) {
+    console.error(e)
+    return {
+      props: { isConnected: false },
+    }
+  }
 }
