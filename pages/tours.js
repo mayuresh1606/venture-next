@@ -20,7 +20,7 @@ export default function Tours(){
             }
             <hr />
             {tourHeads && tourHeads.map((tour) => {
-            return <section id={tour.tourName}>
+            return <section key={tour._id} id={tour.tourName}>
                 <div className="venture-info">
                     <div className="tour-img">
                         <img className="tour-img-bordered" src={`${tour.tourImageURL || "/images/himachal/manali.jpg"}`} alt="err" />
