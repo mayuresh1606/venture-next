@@ -15,7 +15,7 @@ export default function Tours(){
         <div className="tours">
             <h3>Tours</h3>
             {tourHeads && tourHeads.map((tour) => {
-            return <a className="tour-links" href={`#${tour.tourName}`}><span className="tour-package-names">{tour.tourName}</span></a>
+            return <a key={tour._id} className="tour-links" href={`#${tour.tourName}`}><span className="tour-package-names">{tour.tourName}</span></a>
             })
             }
             <hr />
