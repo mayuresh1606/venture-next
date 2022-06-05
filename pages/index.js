@@ -99,7 +99,7 @@ export default function Home({isConnected}) {
   </Head>
   {/* <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p'></Script> */}
     <Navbar />
-    {isConnected ? <h1>Connected</h1> : <h1>Not connected</h1> }
+    {isConnected && <>
     <div className="my-container">
         <center><h5 className="venture-slogan">VENTURE WORLDS GLORIOUS 25 YEARS OF TOURING EXPERINCE</h5></center>
         
@@ -249,7 +249,8 @@ export default function Home({isConnected}) {
           <span className="dev">mayureshovhal16@gmail.com</span>
         </div>
       </div>
-    </footer>
+    </footer></>
+    }
 </>
   )
 }

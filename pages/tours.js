@@ -1,31 +1,44 @@
 import Navbar from "../components/Navbar"
 import Link from "next/link"
+import axios from "axios";
+import { useEffect, useState } from "react"
 export default function Tours(){
+    const [tourHeads, setTourHeads] = useState([]);
+    useEffect(async() => {
+        const {data} = await axios.get("/api/tourhead");
+        const {tour:myTour} = data
+        setTourHeads(myTour)
+    }, []);
     return <>
         <Navbar />
         <div className="my-container">
         <div className="tours">
             <h3>Tours</h3>
-            <a className="tour-links" href="#himachal"><span className="tour-package-names">Fabulous Himachal</span></a>
-            <a className="tour-links" href="#karnataka"><span className="tour-package-names">Majestic Karnataka</span></a>
+            {tourHeads && tourHeads.map((tour) => {
+            return <a className="tour-links" href={`#${tour.tourName}`}><span className="tour-package-names">{tour.tourName}</span></a>
+            })
+            }
             <hr />
-            <section id="himachal">
+            {tourHeads && tourHeads.map((tour) => {
+            return <section id={tour.tourName}>
                 <div className="venture-info">
                     <div className="tour-img">
-                        <img className="tour-img-bordered" src="/images/himachal/himachal.jpg" alt="err" />
+                        <img className="tour-img-bordered" src={`${tour.tourImageURL || "/images/himachal/manali.jpg"}`} alt="err" />
                     </div>
                     <div className="tour-info">
-                        <h3>Fabulous Himachal</h3>
+                        <h3>{tour.tourName}</h3>
                         <hr />
-                        <p>This is popularly renowned for its Himalayan landscapes and popular hill-stations. Many outdoor activities such as rock climbing, mountain biking, paragliding, ice-skating, trekking, rafting, and heli-skiing are popular tourist attractions in Himachal Pradesh.</p>
-                        <span className="match-width package-name">MANALI, CHANDIGARH, MANIKARAN, SHIMLA, DHARAMSHALA, DALHOUSIE, PRAGPUR, PALAMPUR, AMRITSAR</span>
+                        <p>{tour.tourInfo}</p>
+                        <span className="match-width package-name">{tour.tourDescription}</span>
                         <br/>
-                        <button className="btn btn-info"><Link href="/himachal">Click to know more</Link></button>
+                        <button className="btn btn-info"><Link href={`/${tour.tourName}`}>Click to know more</Link></button>
                     </div>
                 </div>
                 <br />
             </section>
-            <section id="karnataka">
+            })
+            }
+            {/* <section id="karnataka">
                 <div className="venture-info">
                     <div className="tour-img">
                         <img className="tour-img-bordered" src="/images/karnataka/coorg.jpg" alt="err" />
@@ -40,7 +53,7 @@ export default function Tours(){
                     </div>
                 </div>
                 <br />
-            </section>
+            </section> */}
         </div>
     </div>
     </>

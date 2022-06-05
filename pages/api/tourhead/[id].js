@@ -11,8 +11,8 @@ export default async function (req, res) {
     if (method === "PATCH"){
         const tour = await db.collection('tours').updateOne(
             {
-                _id: id,
-            },req.body
+                _id: new ObjectId(query),
+            },{$set:req.body}
         );
         return res.status(202).json({success:true, tour:JSON.parse(JSON.stringify(tour))})
     }

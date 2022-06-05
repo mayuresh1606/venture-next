@@ -451,6 +451,10 @@ header {
   height: 2.5rem;
   color: wheat;
 }
+.operationalFrom{
+  text-decoration: underline;
+  color: black;
+}
 .edit{
   width: fit-content !important;
   height: 2.5rem;

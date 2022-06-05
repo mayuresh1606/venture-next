@@ -10,6 +10,8 @@ export default function Tours({tourName}){
         console.log(tourName, "TOUR")
         const {data: {prices}} = await axios.get(`/api/tours?tourName=${tourName}`)
         setTours(prices)
+        document.body.innerHTML
+                .replace("&#39;", "'"); 
         }catch(err){
             console.log(err.response)
         }
@@ -69,6 +71,7 @@ export default function Tours({tourName}){
                             </td>
                             <td>{tour.comfortPrice}</td>
                     </tr>
+                    {tour.compactName !== 'false' &&
                     <tr className="red-color">
                         <td>
                             
@@ -82,13 +85,14 @@ export default function Tours({tourName}){
                         </td>
                         <td>{tour.compactPrice}</td>
                     </tr>
+                    }
                     </tbody>
                     )}
             </table>
             {tours.map((tour) => <section key={tour._id} id={`tour-${tour.tourNumber}`}>
                 <h4 className="font-weight"><span className="lightblue-color"> {tour.tourName} </span>- Tour {tour.tourNumber}</h4>
                 <div className="tour-img-info">
-                    <img className="side-img" src="/images/himachal/manali.jpg" alt="err"/>
+                    <img className="side-img" src={`${tour.imageURL || "/images/himachal/manali.jpg"}`} alt="err"/>
                 <table className="table table-striped grey-bg-table">
                     <thead>
                         <tr>
@@ -106,16 +110,18 @@ export default function Tours({tourName}){
                             
                                 <td>
                                     {tour.comfortDuration} <br />
+                                    {tour.operationalFrom !== "false" && <><p className="operationalFrom">{tour.operationalFrom}</p></>}
                                 </td>
                             
                         </tr>
-                        {tour.compactName && <tr className="red-color">
+                        {tour.compactName !== "false" && <tr className="red-color">
                             <td>COMPACT</td>
                             <td>
                                 {tour.compactName}
                             </td>
                             <td>
                                 {tour.compactDuration}<br />
+                                {tour.operationalFrom !== "false" && <><p className="operationalFrom">{tour.operationalFrom}</p></>}
                             </td>
                         </tr>
                         }
@@ -266,8 +272,8 @@ export default function Tours({tourName}){
                         <td colSpan={"2"}>
                             Note: {tour.noteOne}  <br />
                             {tour.noteTwo} <br />
-                            {tour.noteThree && tour.noteThree}<br />
-                            {tour.noteFour && tour.noteFour}<br />
+                            {tour.noteThree !== "false" && tour.noteThree}<br />
+                            {tour.noteFour !== "false" && tour.noteFour}<br />
                             
                         </td>
                     </tr>
@@ -372,7 +378,7 @@ export default function Tours({tourName}){
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>{tour.luxuryTourComfortGroupFirst}- + GST 5%</td>
-                                    <td>{tour.luxuryTourCompactGroupFirst} + GST 5%</td>
+                                    {tour.luxuryTourCompactGroupFirst !== "false" ? <td>{tour.luxuryTourCompactGroupFirst} + GST 5%</td>:"--------------"}
                                 </tr>
                             </table>
                         </td>
@@ -386,7 +392,7 @@ export default function Tours({tourName}){
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>{tour.luxuryTourComfortGroupSecond} + GST 5%</td>
-                                    <td>{tour.luxuryTourCompactGroupSecond} + GST 5%</td>
+                                    {tour.luxuryTourCompactGroupSecond !== "false" ? <td>{tour.luxuryTourCompactGroupSecond} + GST 5%</td>:"--------------"}
                                 </tr>
                             </table>
                         </td>
@@ -403,7 +409,7 @@ export default function Tours({tourName}){
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>{tour.budgetTourComfortGroupFirst} + GST 5%</td>
-                                    <td>{tour.budgetTourCompactGroupFirst} + GST 5%</td>
+                                    {tour.budgetTourCompactGroupFirst !== "false" ? <td>{tour.budgetTourCompactGroupFirst} + GST 5%</td>:"--------------"}
                                 </tr>
                             </table>
                         </td>
@@ -418,7 +424,7 @@ export default function Tours({tourName}){
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>{tour.budgetTourComfortGroupSecond} + GST 5%</td>
-                                    <td>{tour.budgetTourCompactGroupSecond} + GST 5%</td>
+                                    {tour.budgetTourCompactGroupSecond !== "false" ? <td>{tour.budgetTourCompactGroupSecond} + GST 5%</td>:"--------------"}
                                 </tr>
                             </table>
                         </td>
@@ -462,7 +468,7 @@ export default function Tours({tourName}){
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>{tour.luxuryTourComfortRegularFirst} + GST 5%</td>
-                                    <td>{tour.luxuryTourCompactRegularFirst} + GST 5%</td>
+                                    {tour.luxuryTourCompactRegularFirst !== "false" ? <td>{tour.luxuryTourCompactRegularFirst} + GST 5%</td> : "--------------"}
                                 </tr>
                             </table>
                         </td>
@@ -476,7 +482,7 @@ export default function Tours({tourName}){
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>{tour.luxuryTourComfortRegularSecond} + GST 5%</td>
-                                    <td>{tour.luxuryTourCompactRegularSecond} + GST 5%</td>
+                                    {tour.luxuryTourCompactRegularSecond !== "false" ? <td>{tour.luxuryTourCompactRegularSecond} + GST 5%</td> : "--------------"}
                                 </tr>
                             </table>
                         </td>
@@ -493,7 +499,7 @@ export default function Tours({tourName}){
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>{tour.budgetTourComfortRegularFirst} + GST 5%</td>
-                                    <td>{tour.budgetTourCompactRegularFirst} + GST 5%</td>
+                                    {tour.budgetTourCompactRegularFirst !== "false" ? <td>{tour.budgetTourCompactRegularFirst} + GST 5%</td> : "--------------"}
                                 </tr>
                             </table>
                         </td>
@@ -508,7 +514,7 @@ export default function Tours({tourName}){
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
                                 <tr>
                                     <td>{tour.budgetTourComfortRegularSecond} + GST 5%</td>
-                                    <td>{tour.budgetTourCompactRegularSecond} + GST 5%</td>
+                                    {tour.budgetTourCompactRegularSecond !== "false" ? <td>{tour.budgetTourCompactRegularSecond} + GST 5%</td> : "--------------"}
                                 </tr>
                             </table>
                         </td>
@@ -544,7 +550,7 @@ export default function Tours({tourName}){
                                 <p>Excluding Air Fare.</p>
                             </td>
                             <td width="25%">
-                                {tour.scheduledTourSecond} + GST 5%tour.
+                                {tour.scheduledTourSecond} + GST 5%
                             </td>
                         </tr>
                     }
@@ -616,7 +622,8 @@ export default function Tours({tourName}){
                             {tour.accommodationTwo} <br />
                             {tour.accommodationThree !== "false" && tour.accommodationThree} <br />
                             {tour.accommodationFour !== "false" && tour.accommodationFour} <br />
-                            {tour.accommodationFive !== "false" && tour.accommodationFive}
+                            {tour.accommodationFive !== "false" && tour.accommodationFive} <br />
+                            {tour.accommodationSix !== "false" && tour.accommodationSix} 
                             </span>
                         </td>
                     </tr>
