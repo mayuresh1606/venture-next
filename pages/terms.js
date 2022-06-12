@@ -9,10 +9,10 @@ export default function Terms(){
         <hr />
         <div className="all-terms">
             <ul>
-                <li>On request by the tour participant, to travel by higher className of Air, we assure to
+                <li>On request by the tour participant, to travel by higher class of Air, we assure to
                 arrange for the same. But if we cannot fulfill the request, the tour participant will
                 have to travel, as per the ticket arranged, according to initial request. Non-
-                availability of higher className cannot be a reason to cancel the tour.</li>
+                availability of higher class cannot be a reason to cancel the tour.</li>
                 <li>Participants, must read and follow all the points mentioned in TOUR COST
                 INCLUDE and TOUR COST DOES NOT INCLUDE.</li>
                 <li>Venture World has the right 
@@ -20,10 +20,12 @@ export default function Terms(){
                         <li>To change / modify the route of the tour or cancel the tour if it is deemed advisable or necessary due to natural
                         calamities or
                         unavoidable circumstances.</li>
-                        <li>To alter, amend, postpone, or cancel any of the tours advertised without assigning any reason in either case money paid
-                        by the tour participant will be fully refunded but no compensation claim will be entertained.</li>
-                        <li>To ask the participant to leave the tour immediately If he/she misbehaves causing inconvenience or annoyance to any tour
-                        participant or causes damage to the property. There will not be any compensation, whatsoever, in such cases.</li>
+                        <li>To ask the participant to leave the tour immediately If he/she misbehaves
+                        causing inconvenience or annoyance to any tour participant or causes
+                        damage to the property. There will not be any compensation, whatsoever,
+                        in such cases.</li>
+                        {/* <li>To ask the participant to leave the tour immediately If he/she misbehaves causing inconvenience or annoyance to any tour
+                        participant or causes damage to the property. There will not be any compensation, whatsoever, in such cases.</li> */}
                     </ul>
                 </li>
                 <li>Venture World
@@ -55,7 +57,7 @@ export default function Terms(){
                 <li className="font-weight">Any disputes arising in respect of the tour shall be subject to Thane Jurisdiction.</li>
             </ul>
         </div>
-        <div className="cancellation">
+        {/* <div className="cancellation">
             <h4>Cancellation Amount refunded on tour cost</h4>
             <ul>
                 <li>From 119 to 90days prior to the departure of the tour 85%</li>
@@ -64,14 +66,15 @@ export default function Terms(){
                 <li>From 29 to 8 days, prior to the departure of the tour 30%</li>
                 <li>No amount will be refunded if cancelled prior to 7 days of departure of the tour or no show NIL</li>
             </ul>
-        </div>
+        </div> */}
         <div className="note">
             <h4>Note</h4>
             <ul>
-                <li>Train Travel by A/C coach/air will be arranged with additional cost for Standerd & Deluxe Package.</li>
+                {/* <li>Train Travel by A/C coach/air will be arranged with additional cost for Standerd & Deluxe Package.</li>
                 <li>Air Travel will be arranged with additional cost for Premium Package.</li>
                 <li>Doctor throughout the tour will be complimentary subject to availability & minimum student strength of 60</li>
-                <li>Detailed Tour ltinerary & Name of the Hotels will be provided after selecting the tour.</li>
+                <li>Detailed Tour ltinerary & Name of the Hotels will be provided after selecting the tour.</li> */}
+                <li>Detailed Tour itinerary &amp; Name of the Hotels will be provided after selecting the tour.</li>
             </ul>
         </div>
     </div>

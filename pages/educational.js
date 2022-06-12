@@ -877,6 +877,20 @@ export default function Education(){
                         </div>
                     </div>
                 </div>
+                <center className="font-weight" style={{"fontSize":'larger', "marginBottom": "1rem"}}>Trekking, Camping and Adventure Activities Destinations</center>
+                <p><span className="font-weight">VENTURE WORLDS OUTDOOR EDUCATIONAL PROGRAM develops</span> a deeper
+                relationship with nature, overcome adversity and increase resilience, personal social
+                and leadership qualities, self-confidence, team building, overall development of students
+                to be a balance between active engagements both indoors and outdoors to develop the
+                mind, body, and soul.</p>
+                <p>To achieve the above qualities in students VENTURE WORLD organizes various
+                packages – related to various subjects and project related assignments</p>
+                <ul>
+                    <li>Study Tour</li>
+                    <li>Scout / Guide Camp</li>
+                    <li>Adventure Camp - Trekking, Adventure activities, Skiing etc.</li>
+                    <li>Day Picnic</li>
+                </ul>
                 <center>{educationalTours.map((tour, index) => <>
                     <section key={index} id={`${tour.destination}`} className="edu-sect">
                     <h5 className="edu-heading underline"> {tour.destination} </h5>

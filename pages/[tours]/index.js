@@ -42,8 +42,8 @@ export default function Tours({tourName}){
             </p>
             <p className="blue-color font-weight">TOUR TYPE 1 COMFORT - We don’t run in the tour -We stroll in the tour </p>
             <p className="red-color font-weight">TOUR TYPE 2 COMPACT – Itinerary Carved Tour</p>
-            <p className="font-weight">CLICK on the <span className="lightblue-color" style={{"textDecoration": "underline"}}>Tour
-                    number</span> of your choice for tour itinerary, tour cost, cost includes / not includes and for more
+            <p className="font-weight">CLICK on the <span className="lightblue-color" style={{"textDecoration": "underline", "fontSize":"larger"}}>TOUR
+                    NUMBER</span> of your choice for tour itinerary, tour cost, cost includes / not includes and for more
                 information.</p>
             <hr />
             <table className="table grey-bg-table table-striped">
@@ -285,7 +285,7 @@ export default function Tours({tourName}){
                 {/* <!-- Includes table --> */}
                 <table className="table table-striped table-bordered border-secondary">
                     <th>
-                        <center>TOUR COST INCLUDE</center>
+                        <center><p className="font-weight" style={{"marginBottom": 0, "fontSize":"large"}}>TOUR COST INCLUDE</p></center>
                     </th>
                     <tbody>
                         <tr>
@@ -304,6 +304,11 @@ export default function Tours({tourName}){
                                 <span className="font-weight">For group and scheduled tour:</span> Ac - luxury Bus, Tempo Traveller, Car
                                 (According to group size) <br />
                                 <span className="font-weight">Note:</span> A/c in car and bus may not operate in hilly areas.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h6 className="font-weight">FOOD:</h6>All meals - (Breakfast tea/ coffee, Lunch, Evening Snacks tea/coffee &amp; Dinner along with 1 litre Water bottle per person)
                             </td>
                         </tr>
                         <tr>
@@ -346,10 +351,9 @@ export default function Tours({tourName}){
                     </tr>
                     <tr>
                         <td style={{"padding":"0%"}}>
-                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for</span><span className="red-color">
-                                    Group</span><span className="blue-color"> 7 person and above</span>
-                                Travel by Tempo Traveller / Bus</p>
-                            <p>Travel by Tempo / Traveller Buses</p>
+                            <p className="font-weight"><span className="blue-color">REGULAR TOUR for </span><span className="red-color">
+                                    Group</span><span className="blue-color"> 7 person and above</span></p>
+                            <p className="font-weight">Travel by Tempo / Traveller Buses</p>
                         </td>
                         <td width="40%" style={{"padding":"0%"}}>
                             <table style={{"marginBottom": "0%"}} className="table table-bordered">
@@ -569,7 +573,7 @@ export default function Tours({tourName}){
                         <td colSpan={3} width="50%" className="font-weight" style={{"padding": "0%"}}>
                             <table className="table table-bordered border-secondary" style={{"marginBottom": "0%"}}>
                                 <tr>
-                                    <td>20% discount for third person sharing same room</td>
+                                    <td>20% discount for third person sharing same room</td>|
                                     <td>Single occupancy – 50% additional charges on per person cost.</td>
                                 </tr>
                             </table>
@@ -579,8 +583,8 @@ export default function Tours({tourName}){
                         <td colSpan={3} className="font-weight">
                             <center> Guests booking their own air tickets and guests travelling by railway or other mode of transport. </center><br />
                             <p style={{display: "flex", justifyContent: "space-between"}}>
-                                <span>FREE – for Child below 2yrs.</span>
-                                <span> Child between 2 - 4yrs. - 60% discount</span>
+                                <span>FREE – for Child below 2yrs.</span>|
+                                <span> Child between 2 - 4yrs. - 60% discount</span>|
                                 <span> Child between 5 - 11yrs. - 30% discount</span>
                             </p>
                         </td>
@@ -592,7 +596,7 @@ export default function Tours({tourName}){
                 <table className="table table-bordered table-striped border-secondary">
                     <tbody>
                     <tr>
-                        <td>The above packages pick up and drop is from Chandigarh. However, if any participant wants to join the tour from Delhi, contact Venture World for the details of Duration and tour cost.</td>
+                        <td>{tour.shortNote}</td>
                     </tr>
                     <tr>
                         <td>The rates including air fare mentioned above are from ex Mumbai. For Guests travelling from airports
@@ -659,20 +663,6 @@ export default function Tours({tourName}){
                             have to be borne
                             by the
                             participants.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            *Expense incurred for increase in the duration of the tour, change in airline schedule, route
-                            alteration, changing the
-                            tour
-                            date, change in hotel etc. due to circumstances beyond the control of the tour operator. Instances of
-                            this type would
-                            include but
-                            not be limited to the following- (delays in transit, missed connections, bad weather, natural
-                            calamities, road blocks,
-                            civil
-                            disturbances, strikes, agitations, bandhs, war, quarantine, etc.)
                         </td>
                     </tr>
                     <tr>
