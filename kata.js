@@ -12,6 +12,9 @@ function pigIt(str){
         }
         tempArr.push(word);
     }
+    // jungle afari
+    // krihna detination
+    // viit
     tempArr = tempArr.map((word) => {
         punctuations.forEach((punc) => {
             if (word.includes(punc)){

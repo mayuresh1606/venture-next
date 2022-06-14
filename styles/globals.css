@@ -451,6 +451,9 @@ header {
   height: 2.5rem;
   color: wheat;
 }
+.visit{
+  font-size: small;
+}
 .operationalFrom{
   text-decoration: underline;
   color: black;

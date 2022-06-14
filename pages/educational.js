@@ -875,6 +875,15 @@ export default function Education(){
                         <div className="slide banner-img">
                         <img className="ban-img" src="/images/educationalTours/education-5.jpeg" alt="err"/>
                         </div>
+                        <div className="slide banner-img">
+                        <img className="ban-img" src="/images/educationalTours/education-6.jpeg" alt="err"/>
+                        </div>
+                        <div className="slide banner-img">
+                        <img className="ban-img" src="/images/educationalTours/education-7.jpeg" alt="err"/>
+                        </div>
+                        <div className="slide banner-img">
+                        <img className="ban-img" src="/images/educationalTours/education-8.jpeg" alt="err"/>
+                        </div>
                     </div>
                 </div>
                 <center className="font-weight" style={{"fontSize":'larger', "marginBottom": "1rem"}}>Trekking, Camping and Adventure Activities Destinations</center>

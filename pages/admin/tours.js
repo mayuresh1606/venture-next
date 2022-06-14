@@ -352,7 +352,10 @@ export default function AdminTours(){
                     <label htmlFor="imageURL">Image URL: </label>
                     <input defaultValue={tour.imageURL} onChange={(e) => setFormValues({...formValues, imageURL:e.currentTarget.value})} type="text" name="imageURL" />
                 </div>
-                <div></div>
+                <div>
+                    <label htmlFor="Visit">Visit: </label>
+                    <input defaultValue={tour.visit} onChange={(e) => setFormValues({...formValues, visit:e.currentTarget.value})} type="text" name="visit" />
+                </div>
                 <div>{/* itineraryDayOne */}
                     <label htmlFor="itineraryDayOne">Itinerary Day One: </label>
                     <textarea defaultValue={tour.itineraryDayOne} rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayOne:e.currentTarget.value})} type="text" name="itineraryDayOne" />
@@ -586,7 +589,10 @@ export default function AdminTours(){
                     <label htmlFor="imageURL">Image URL: </label>
                     <input onChange={(e) => setFormValues({...formValues, imageURL:e.currentTarget.value})} type="text" name="imageURL" />
                 </div>
-                <div></div>
+                <div>
+                    <label htmlFor="Visit">Visit: </label>
+                    <input defaultValue={"f"} onChange={(e) => setFormValues({...formValues, visit:e.currentTarget.value})} type="text" name="visit" />
+                </div>
                 <div>{/* itineraryDayOne */}
                     <label htmlFor="itineraryDayOne">Itinerary Day One: </label>
                     <textarea rows={5} onChange={(e) => setFormValues({...formValues, itineraryDayOne:e.currentTarget.value})} type="text" name="itineraryDayOne" />

@@ -104,9 +104,10 @@ export default function Adventure(){
             <table className="table table-bordered border-secondary">
                 <tbody>
                     <tr className="text-center font-weight">
-                        <td width={"33.33%"}>TREKKING</td>
-                        <td width={"33.33%"}>CAMPING</td>
-                        <td width={"33.33%"}><a className="new-content" href="#skiing">SKIING</a></td>
+                        <td width={"25%"}>TREKKING</td>
+                        <td width={"25%"}>CAMPING</td>
+                        <td width={"25%"}><a className="new-content" style={{color:"blue"}} href="#skiing">SKIING</a></td>
+                        <td width={"25%"}>JUNGLE SAFARI</td>
                     </tr>
                 </tbody>
             </table>

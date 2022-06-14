@@ -122,10 +122,10 @@ export default function Home({isConnected}) {
               <img className="ban-img" src="/images/main2.jpg" alt="err"/>
             </div>
             <div className="slide banner-img">
-              <img className="ban-img" src="/images/main3.jpeg" alt="err"/>
+              <img className="ban-img" src="/images/main9.jpeg" alt="err"/>
             </div>
             <div className="slide banner-img">
-              <img className="ban-img" src="/images/main9.jpeg" alt="err"/>
+              <img className="ban-img" src="/images/main3.jpeg" alt="err"/>
             </div>
           </div>
         </div>

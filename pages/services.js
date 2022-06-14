@@ -20,7 +20,7 @@ export default function Services(){
         </div>
         <div className="transportation">
             <h3>Transportation – Air (Domestic & International)</h3>
-            <p>Bus hire a/c & non a/c (tempo traveller, mini bus, semi – luxury, luxury, volvo etc. Daily out station route bus) Cruise
+            <p>Car(2 or 4 seater)/Bus hire a/c & non a/c (tempo traveller, mini bus, semi – luxury, luxury, volvo etc. Daily out station route bus) Cruise
             (River, Backwater, House boat, Package cruise domestic & international)</p>
         </div>
         <div className="package-tour">
