@@ -433,7 +433,7 @@ export default function Pilgrimage() {
             <h6 className="font-weight">52 Shakti Peeth</h6>
             {shaktiPeeth.map((shakti, index) => <p style={{marginLeft:"1rem", marginBottom:0.5}} key={index}>{shakti}</p> )}
             <br />
-            <h6 className="font-weight">Krishna Destination</h6>
+            <h6 className="font-weight">Shree Krishna Yatra</h6>
             <table className="table table-striped table-bordered border-secondary">
                 <tbody>
                     {krishnaYatra.map((yatra, index) => <tr key={index}><td width={"10%"}>{index + 1}</td> <td width={"75%"}>{yatra.name}</td> <td>{yatra.location}</td></tr> )}

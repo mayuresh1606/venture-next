@@ -107,7 +107,7 @@ export default function Adventure(){
                         <td width={"25%"}>TREKKING</td>
                         <td width={"25%"}>CAMPING</td>
                         <td width={"25%"}><a className="new-content" style={{color:"blue"}} href="#skiing">SKIING</a></td>
-                        <td width={"25%"}>JUNGLE SAFARI</td>
+                        <td width={"25%"}><a className="new-content" style={{color:"blue"}} href="#jungle-safari">JUNGLE SAFARI</a></td>
                     </tr>
                 </tbody>
             </table>

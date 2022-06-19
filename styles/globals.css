@@ -451,6 +451,9 @@ header {
   height: 2.5rem;
   color: wheat;
 }
+.grey-highlight{
+  background-color: rgb(194, 191, 191);
+}
 .visit{
   font-size: small;
 }
@@ -510,6 +513,9 @@ header {
 .card {
   max-width: 300px;
 }
+.yellow-color{
+  color: #cccc3d;
+}
 .green-color {
   color: green;
 }
@@ -534,7 +540,9 @@ header {
 .darkblue-color {
   color: darkblue;
 }
-
+.grey-color{
+  color: grey;
+}
 figure,
 .tour-info {
   margin: 30px;

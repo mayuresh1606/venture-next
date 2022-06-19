@@ -886,7 +886,7 @@ export default function Education(){
                         </div>
                     </div>
                 </div>
-                <center className="font-weight" style={{"fontSize":'larger', "marginBottom": "1rem"}}>Trekking, Camping and Adventure Activities Destinations</center>
+                <center className="font-weight" style={{"fontSize":'larger', "marginBottom": "1rem"}}>OUTDOOR EDUCATIONAL TOUR</center>
                 <p><span className="font-weight">VENTURE WORLDS OUTDOOR EDUCATIONAL PROGRAM develops</span> a deeper
                 relationship with nature, overcome adversity and increase resilience, personal social
                 and leadership qualities, self-confidence, team building, overall development of students

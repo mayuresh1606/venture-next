@@ -244,7 +244,42 @@ export default function Skiing(){
                     </tr>
                 </tbody>
             </table>
-            <br />
+            <section id="jungle-safari">
+                <center><p className="font-weight" style={{fontSize:"x-large"}}>JUNGLE SAFARI</p></center>
+                <p className="font-weight">Experience the thrill of Jungle and sight, rich wildlife species with Venture World.
+                For more details, contact us.</p>
+                <p className="font-weight">Some of the famous wildlife safari in India is mentioned below (note the safaris
+                have a best time for sighting the wildlife and are opened only on particular
+                months)</p>
+                <br />
+                <p> <span className="font-weight">Madhya Pradesh - </span>Panna National Park, Bandhavgarh National Park, Pench
+                National Park, Satpura National Park, Kanha National Park.</p>
+                <br />
+
+                <p> <span className="font-weight">Karnataka - </span>Bandipur National Park, Nagarhole National Park.</p>
+                <br />
+
+                <p> <span className="font-weight">Assam - </span>Kaziranga National Park, Manas Wildlife Sanctuary</p>
+                <br />
+
+                <p> <span className="font-weight">Rajasthan - </span>Ranthambore National Park. <span className="font-weight">Gujarat - </span>Sasan-Gir Wildlife Sanctuary.</p>
+                <br />
+
+                <p> <span className="font-weight">Uttar Pradesh - </span>Dudhwa National Park. <span className="font-weight">West Bengal - </span>Sunderbans National Park.</p>
+                <br />
+
+                <p> <span className="font-weight">Maharashtra - </span>Tadoba National Park. <span className="font-weight">Kerala - </span>Periyar Wildlife Sanctuary.</p>
+                <br />
+
+                <p> <span className="font-weight">Ladakh - </span>Hemis National Park. <span className="font-weight">Uttarakhand - </span>Jim Corbett.</p>
+                <br />
+
+                <p className="font-weight">For the bird lovers list of paradise for birdwatching is furnished below</p>
+                <br />
+                <p className="font-weight">Bharatpur – Rajasthan, Chilka Lake – Odisha, Kumarakom - Kerala, Nal Sarovar –
+                Gujarat, Salim Ali - Goa, Ranganathittu - Karnataka</p>
+                <br />
+            </section>
             <table className="table table-striped table-bordered border-secondary">
                     <th>
                         <center>TOUR COST INCLUDE</center>
