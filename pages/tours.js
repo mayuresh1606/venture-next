@@ -68,7 +68,7 @@ export default function Tours(){
             <br />
 
             <h4 className="lightblue-color">DELIGHTFUL GOA –</h4>
-            <p>TITO'S STREET / ANJUNA BEACH / CALANGUTE BEACH / DUDHSAGAR
+            <p>TITO&#39;S STREET / ANJUNA BEACH / CALANGUTE BEACH / DUDHSAGAR
             WATERFALLS / FORT AGUADA / BAGA BEACH / CANDOLIM BEACH / SINQUERIM
             BEACH / ANJUNA FLEA MARKET / GRAND ISLAND / DIVAR ISLAND / MANDOVI
             RIVER CRUISE / PALOLEM BEACH / CHAPORA RIVER / CHAPORA FORT /
