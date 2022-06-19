@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar";
 import {useState, useEffect} from "react";
 import axios from "axios";
-export default function(){
+export default function Reviews(){
     const [formValues, setFormValues] = useState({})
     const [message, setMessage] = useState(false);
     const [reviews, setReviews] = useState([]);
