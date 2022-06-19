@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Navbar from "../components/Navbar"
 import axios from "axios";
-export default function Reviews(){
+export default Reviews = () =>{
     const [reviews, setReviews] = useState([]);
     useEffect(async() => {
         const {data: {reviews}} = await axios.get("/api/reviews");
