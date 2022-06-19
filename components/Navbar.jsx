@@ -24,6 +24,9 @@ export default function Navbar() {
               <li className="ul-background">
                 <Link className="nav-link darkblue-color" href="/terms">Terms</Link>
               </li>
+              <li className="ul-background">
+                <Link className="nav-link darkblue-color" href="/reviews">Reviews</Link>
+              </li>
             </ul>
 
           </div>

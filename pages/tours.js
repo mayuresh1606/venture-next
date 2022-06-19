@@ -23,7 +23,7 @@ export default function Tours(){
             })
             } */}
             <hr />
-            <h3 className="font-weight">Exclusive PACKAGE TOUR</h3>
+            <h3 className="font-weight">PACKAGE TOUR</h3>
             <ul>
                 <li><p><span className="font-weight">Short Escape</span> - for 2 to 3 days</p></li>
                 <li><p><span className="font-weight">Daily Package</span> - regular tour on any day throughout the year.</p></li>
@@ -42,12 +42,12 @@ export default function Tours(){
             significant monuments, pilgrimage, outdoor activities, cuisines, shopping and all the
             bounties of nature.</span></p>
             
-            <h4 className="blue-color">FABULOUS HIMACHAL –</h4>
+            <Link href={"/FABULOUS HIMACHAL"}><h4 className="blue-color">FABULOUS HIMACHAL –</h4></Link>
             <p>SHIMLA / MANALI / DHARAMSHALA / DALHOUSIE /PALAMPUR / PRAGPUR /
             CHANDIGARH (U.T) / AMRITSAR (PB)</p>
             <br />
             
-            <h4 className="purple-color">MAJESTIC KARNATAKA –</h4>
+            <Link href={"/MAJESTIC KARNATAKA"}><h4 className="purple-color">MAJESTIC KARNATAKA –</h4></Link>
             <p>BENGALURU / MYSURU / OOTY (TN) / HASSAN / COORG / CHIKMAGALUR /
             CHITRADURGA / HAMPI / BADAMI / MANGALURU / GOA</p>
             <p className="font-weight">For the above destination our guest can click and view on this site a detailed

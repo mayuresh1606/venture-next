@@ -144,7 +144,7 @@ export default function Home({isConnected}) {
           <div className="right-box">
             <table className="table table-bordered border-secondary group-table">
               <thead>
-                <th colSpan={2}>
+                <th className='group-cd' colSpan={2}>
                   <center className="darkblue-color font-weight"><a href="#tours-tables" className="darkblue-color tour-links">GROUP</a></center>
                 </th>
               </thead>

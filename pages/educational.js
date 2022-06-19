@@ -893,7 +893,9 @@ export default function Education(){
                 to be a balance between active engagements both indoors and outdoors to develop the
                 mind, body, and soul.</p>
                 <p>To achieve the above qualities in students VENTURE WORLD organizes various
-                packages – related to various subjects and project related assignments</p>
+                packages – related to various Subjects and Project related assignments like <span className="font-weight">Village tour</span> (experience village life, occupation, agriculture, farm and field work, tribal life etc.),
+                <span className="font-weight">Environmental Studies</span> (knowledge of climate, plant, forest, soil, water harvesting
+                program etc.) <span className="font-weight">Social Studies</span> and <span className="font-weight">Factory visit.</span></p>
                 <ul>
                     <li>Study Tour</li>
                     <li>Scout / Guide Camp</li>
