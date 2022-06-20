@@ -841,7 +841,7 @@ export default function Tours({tourName}){
                     at the time of booking.</li>
                     <li>We may arrange shooting during tours, the tour participants shall have no objection to the shot material being used as
                     publicity material (stills / video) with the participant’s permission.</li>
-                    <li>Package tour maximum liability of the Venture World is to the package cost only.</li>
+                    <li>Package tour cost maximum liability of the Venture World is to the package tour cost only</li>
                     <li>Tour participants are requested to collect their rail/ air tickets, tour itinerary and list of necessary things to be
                     carried from the Venture World office, only after making the full payment.</li>
                     <li className="font-weight">Any disputes arising in respect of the tour shall be subject to Thane Jurisdiction.</li>

@@ -127,7 +127,7 @@ a {
   font-family: 'Vadelma';
 }
 .group-cd{
-  background: linear-gradient(133deg, rgb(84, 84, 182), white);
+  background: linear-gradient(133deg, rgb(125 125 218), white);
   border-radius: 5px 0 5px 0;
 }
 .adventure-table {
@@ -1038,9 +1038,15 @@ footer {
     font-size: 0.8rem;
     width: 100vw;
   }
+  .ul-background a{
+    padding: 0.5rem .5rem;
+  }
   .venture-slogan {
     font-size: 0.8rem;
     font-weight: 600;
+  }
+  .review p{
+    font-size: small;
   }
   .imp-pack-top {
     grid-template-columns: 30% 70%;
