@@ -127,7 +127,7 @@ a {
   font-family: 'Vadelma';
 }
 .group-cd{
-  background: linear-gradient(133deg, rgb(125 125 218), white);
+  background: linear-gradient(133deg, rgb(82 182 194), white);
   border-radius: 5px 0 5px 0;
 }
 .adventure-table {
@@ -1219,6 +1219,9 @@ footer {
   .himachal-img img {
     width: 76vw;
     height: 90vh;
+  }
+  .font-size-cd{
+    font-size: large;
   }
   .venture-info .tour-info {
     width: 320px;

@@ -282,7 +282,7 @@ export default function Skiing(){
             </section>
             <table className="table table-striped table-bordered border-secondary">
                     <th>
-                        <center>TOUR COST INCLUDE</center>
+                        <center className="font-size-cd">TOUR COST INCLUDE</center>
                     </th>
                     <tbody>
                         <tr>
