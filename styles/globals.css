@@ -739,6 +739,11 @@ footer {
   border-radius: 10px;
   box-shadow: 0 10px 14px 0px grey;
 }
+.group-text{
+  font-size: large;
+    font-weight: 700;
+    color: purple !important;
+}
 @media only screen and (min-width: 280px) and (max-width: 326px) {
   .my-container {
     width: 100vw;
