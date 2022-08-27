@@ -94,6 +94,7 @@ export default function Home({isConnected}) {
   <Head>
     <meta name="description" content="Home page of ventureworld.in" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property='og:title' content='Venture World'/>
     <meta charSet="UTF-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Venture World</title>
