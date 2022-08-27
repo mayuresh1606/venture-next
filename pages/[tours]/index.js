@@ -862,23 +862,25 @@ export default function Tours({tourName}){
     </>
 }
 
-// export async function getStaticPaths(){
-//     // const {tour} = data;
-//     let tourNames = ["FABULOUS HIMACHAL", "MAJESTIC KARNATAKA"]
-//     const paths = tourNames.map((tour) => {
-//         return {
-//             params:{
-//                 tours:tour
-//             }
-//         }
-//     })
-//     return {
-//         paths,
-//         fallback:false
-//     };
-// }
+export async function getStaticPaths(){
+    // const {tour} = data;
+    // const {data} = await axios.get("/api/tou`rhead");
+    // console.log(data,"Server head data");
+    let tourNames = ["FABULOUS HIMACHAL", "MAJESTIC KARNATAKA"]
+    const paths = tourNames.map((tour) => {
+        return {
+            params:{
+                tours:tour
+            }
+        }
+    })
+    return {
+        paths,
+        fallback:false
+    };
+}
 
-export async function getServerSideProps({params}){
+export async function getStaticProps({params}){
     // const {data} = await axios.get("/api/tourhead");
     return {
         props:{

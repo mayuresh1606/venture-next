@@ -10,7 +10,6 @@ export default function Home({isConnected}) {
   const [tourHeads, setTourHeads] = useState([]);
   useEffect( async() => {
         const {data} = await axios.get("/api/tourhead");
-        console.log(data, "My Data")
         const {tour:myTour} = data
         setTourHeads(myTour)
             // adding limit to package names inside individual package
@@ -91,9 +90,9 @@ export default function Home({isConnected}) {
   }, [])
   return (
     <>
+    <main>
   <Head>
-    <meta charSet="UTF-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Home page of ventureworld.in" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Venture World</title>
   </Head>
@@ -251,11 +250,12 @@ export default function Home({isConnected}) {
       </div>
     </footer></>
     }
+    </main>
 </>
   )
 }
 
-export async function getServerSideProps(context) {
+export async function getStaticProps(context) {
   try {
     const {db} = await connectToDatabase();
     // `await clientPromise` will use the default database passed in the MONGODB_URI
