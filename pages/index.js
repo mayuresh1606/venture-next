@@ -90,10 +90,12 @@ export default function Home({isConnected}) {
   }, [])
   return (
     <>
-    <main>
+    <main lang='en'>
   <Head>
     <meta name="description" content="Home page of ventureworld.in" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charSet="UTF-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <title>Venture World</title>
   </Head>
   {/* <Script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p'></Script> */}
